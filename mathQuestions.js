@@ -3707,8 +3707,8 @@ export const mathQuestions = [
      {
         question: 'In the sequence, 10,7,4,1,-2…,-23. What is A3?',
         choices: [
-          { label: '(a) 7', isCorrect: false },
-          { label: '(b) 4', isCorrect: true },
+          { label: '(a) 4', isCorrect: true },
+          { label: '(b) 7', isCorrect: false },
           { label: '(c) 10', isCorrect: false }
        ],
         value: 3,

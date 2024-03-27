@@ -92,7 +92,7 @@ function play(player, psum, num) {
             let element = '#p1';
             
             if (p1sum == i) {
-                if ([3, 6, 7, 17, 22, 27, 29, 36, 49, 57, 79, 83, 90].includes(p1sum)) {
+                if ([17, 22, 27, 29, 36, 49, 57, 79, 83, 90].includes(p1sum)) {
                     var divIds = [];
                     for (var j = 1; j <= 15; j++) {
                         divIds.push("charge" + j);
@@ -167,7 +167,7 @@ function play(player, psum, num) {
                         $(`#p1 img`).css('transform', 'scaleX(1)');
                     }
                     break;
-                 } else if ([4, 8, 12, 15, 18, 20, 23, 25, 30, 33, 39, 44, 46, 50, 55, 58, 60, 63, 65, 70, 73, 76, 80, 84, 86, 89, 91, 92, 93, 96, 98].includes(p1sum)) {
+                 } else if ([4, 8, 12, 15, 18, 20, 23, 25, 28, 30, 33, 39, 41, 44, 46, 50, 55, 58, 60, 61, 63, 65, 70, 73, 76, 80, 84, 86, 89, 91, 92, 93, 96, 98].includes(p1sum)) {
                     var randomIndex = Math.floor(Math.random() * mathQuestions.length);
                     var randomQuestion = mathQuestions[randomIndex];
                     var imageNumber = randomQuestion.value;
@@ -248,7 +248,7 @@ function play(player, psum, num) {
             let element = '#p2';
             
             if (p2sum == i) {
-                if ([3, 6, 7, 17, 22, 27, 29, 36, 49, 57, 79, 83, 90].includes(p2sum)) {
+                if ([17, 22, 27, 29, 36, 49, 57, 79, 83, 90].includes(p2sum)) {
                     var divIds = [];
                     for (var j = 1; j <= 15; j++) {
                         divIds.push("charge" + j);
@@ -319,7 +319,7 @@ function play(player, psum, num) {
                         $(`#p2 img`).css('transform', 'scaleX(1)');
                     }
                     break;
-                 } else if ([4, 8, 12, 15, 18, 20, 23, 25, 30, 33, 39, 44, 46, 50, 55, 58, 60, 63, 65, 70, 73, 76, 80, 84, 86, 89, 91, 92, 93, 96, 98].includes(p2sum)) {
+                 } else if ([4, 8, 12, 15, 18, 20, 23, 25, 28, 30, 33, 39, 41, 44, 46, 50, 55, 58, 60, 61, 63, 65, 70, 73, 76, 80, 84, 86, 89, 91, 92, 93, 96, 98].includes(p2sum)) {
                     var randomIndex = Math.floor(Math.random() * mathQuestions.length);
                     var randomQuestion = mathQuestions[randomIndex];
                     var imageNumber = randomQuestion.value;

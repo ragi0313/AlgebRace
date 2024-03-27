@@ -92,7 +92,7 @@ function play(player, psum, num) {
             let element = '#p1';
             
             if (p1sum == i) {
-                if ([3, 6, 7, 17, 22, 27, 29, 36, 46, 57, 79, 83, 90].includes(p1sum)) {
+                if ([3, 6, 7, 17, 22, 27, 29, 36, 49, 57, 79, 83, 90].includes(p1sum)) {
                     var divIds = [];
                     for (var j = 1; j <= 15; j++) {
                         divIds.push("charge" + j);
@@ -122,15 +122,17 @@ function play(player, psum, num) {
                     }
                     setTimeout(function() {
                         selectedDiv.css("display", "none").removeClass("animated");
+                    }, 4200);
+                    setTimeout(function() {
                         positionContentInGrid('#p1', '#b' + (p1sum < 10 ? '0' + p1sum : p1sum));
-                    }, 3200);
+                    }, 5200);
                     if ((p1sum >= 11 && p1sum < 21) || (p1sum >= 31 && p1sum < 41) || (p1sum >= 51 && p1sum < 61) || (p1sum >= 71 && p1sum < 81) || (p1sum >= 91)) {
                         $(`#p1 img`).css('transform', 'scaleX(-1)');
                     } else {
                         $(`#p1 img`).css('transform', 'scaleX(1)');
                     }
                     break;
-                 } else if([9, 13, 31, 34, 37, 56, 67, 68, 78, 87, 88].includes(p1sum)) {
+                 } else if([9, 13, 31, 34, 37, 43, 47, 56, 67, 68, 78, 87, 88].includes(p1sum)) {
                     var divIdsBlue = [];
                     for(let j = 1; j <= 15; j++) {
                         divIdsBlue.push("chance" + j);
@@ -155,15 +157,17 @@ function play(player, psum, num) {
                     }
                     setTimeout(function() {
                         selectedBlue.css("display", "none").removeClass("animated");
+                    }, 4200);
+                    setTimeout(function() {
                         positionContentInGrid('#p1', '#b' + (p1sum < 10 ? '0' + p1sum : p1sum));
-                    }, 3200);
+                    }, 5200);
                     if ((p1sum >= 11 && p1sum < 21) || (p1sum >= 31 && p1sum < 41) || (p1sum >= 51 && p1sum < 61) || (p1sum >= 71 && p1sum < 81) || (p1sum >= 91)) {
                         $(`#p1 img`).css('transform', 'scaleX(-1)');
                     } else {
                         $(`#p1 img`).css('transform', 'scaleX(1)');
                     }
                     break;
-                 } else if ([15, 20, 25, 30, 33, 39, 50, 55, 60, 65, 70, 73, 80, 84, 89, 92, 93].includes(p1sum)) {
+                 } else if ([4, 8, 12, 15, 18, 20, 23, 25, 30, 33, 39, 44, 46, 50, 55, 58, 60, 63, 65, 70, 73, 76, 80, 84, 86, 89, 91, 92, 93, 96, 98].includes(p1sum)) {
                     var randomIndex = Math.floor(Math.random() * mathQuestions.length);
                     var randomQuestion = mathQuestions[randomIndex];
                     var imageNumber = randomQuestion.value;
@@ -244,7 +248,7 @@ function play(player, psum, num) {
             let element = '#p2';
             
             if (p2sum == i) {
-                if ([3, 6, 7, 17, 22, 27, 29, 36, 46, 57, 79, 83, 90].includes(p2sum)) {
+                if ([3, 6, 7, 17, 22, 27, 29, 36, 49, 57, 79, 83, 90].includes(p2sum)) {
                     var divIds = [];
                     for (var j = 1; j <= 15; j++) {
                         divIds.push("charge" + j);
@@ -269,15 +273,17 @@ function play(player, psum, num) {
                     }
                     setTimeout(function() {
                         selectedDiv.css("display", "none").removeClass("animated");
-                        positionContentInGrid('#p2', '#b' + (p2sum < 10 ? '0' + p2sum : p2sum));
-                    }, 3200);
+                    }, 4200);
+                    setTimeout(function() {
+                        positionContentInGrid('#p1', '#b' + (p1sum < 10 ? '0' + p1sum : p1sum));
+                    }, 5200);
                     if ((p2sum >= 11 && p2sum < 21) || (p2sum >= 31 && p2sum < 41) || (p2sum >= 51 && p2sum < 61) || (p2sum >= 71 && p2sum < 81) || (p2sum >= 91)) {
                         $(`#p2 img`).css('transform', 'scaleX(-1)');
                     } else {
                         $(`#p2 img`).css('transform', 'scaleX(1)');
                     }
                     break;
-                 } else if([9, 13, 31, 34, 37, 56, 67, 68, 78, 87, 88].includes(p2sum)) {
+                 } else if([9, 13, 31, 34, 37, 43, 47, 56, 67, 68, 78, 87, 88].includes(p2sum)) {
                     var divIdsBlue = [];
                     for(let j = 1; j <= 15; j++) {
                         divIdsBlue.push("chance" + j);
@@ -303,15 +309,17 @@ function play(player, psum, num) {
                     }
                     setTimeout(function() {
                         selectedBlue.css("display", "none").removeClass("animated");
-                        positionContentInGrid('#p2', '#b' + (p2sum < 10 ? '0' + p2sum : p2sum));
-                    }, 3200);
+                    }, 4200);
+                    setTimeout(function() {
+                        positionContentInGrid('#p1', '#b' + (p1sum < 10 ? '0' + p1sum : p1sum));
+                    }, 5200);
                     if ((p2sum >= 11 && p2sum < 21) || (p2sum >= 31 && p2sum < 41) || (p2sum >= 51 && p2sum < 61) || (p2sum >= 71 && p2sum < 81) || (p2sum >= 91)) {
                         $(`#p2 img`).css('transform', 'scaleX(-1)');
                     } else {
                         $(`#p2 img`).css('transform', 'scaleX(1)');
                     }
                     break;
-                 } else if ([15, 20, 25, 30, 33, 39, 50, 55, 60, 65, 70, 73, 80, 84, 89, 92, 93].includes(p2sum)) {
+                 } else if ([4, 8, 12, 15, 18, 20, 23, 25, 30, 33, 39, 44, 46, 50, 55, 58, 60, 63, 65, 70, 73, 76, 80, 84, 86, 89, 91, 92, 93, 96, 98].includes(p2sum)) {
                     var randomIndex = Math.floor(Math.random() * mathQuestions.length);
                     var randomQuestion = mathQuestions[randomIndex];
                     var imageNumber = randomQuestion.value;

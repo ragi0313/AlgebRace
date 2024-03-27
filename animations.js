@@ -1,7 +1,7 @@
 $(document).ready(function() {
     function globeAnimation() {
         $('.globe').animate({ 
-            'top': '-10%',
+            'top': '-15%',
             'right': '-25%',
             'opacity': '0.9'
         }, 1000); 
@@ -26,26 +26,21 @@ $(document).ready(function() {
     
     $('.globe').addClass('rotateGlobe');
     $('.factory').addClass('blink');
-    setTimeout(function() {
-        $('body').css('background-image', "url('/images/background/bg-page-2.png')");
-    }, 3000);
-
-    setTimeout(function() {
-        $('body').css('height', '100vh')
-        $(".logo-first-container").css('display', 'none');
-        $('.home').css('display', 'flex');
-        $('.home-options').css('display', 'flex');
-        $('.globe').css('display', 'none');
-        $('.factory').css('display', 'none');
-        var music = $('#bgMusic')[0]; 
-        function loopMusic() {
-            music.currentTime = 0; 
-            music.play(); 
-        }
-        music.addEventListener('ended', loopMusic);
     
-        music.play();
-    }, 3000);
+    setTimeout(function() {
+        function playBackgroundMusic() {
+            $('body').css('background-image', "url('/images/background/bg-page-2.png')");
+            $('body').css('height', '100vh');
+            $(".logo-first-container").css('display', 'none');
+            $('.home').css('display', 'flex');
+            $('.home-options').css('display', 'flex');
+            $('.globe').css('display', 'none');
+            $('.factory').css('display', 'none');
+            $('body').append('<audio id="bgMusic" loop><source src="music/peaches.mp3" type="audio/mpeg"></audio>');
+            $('#bgMusic')[0].play();
+        }
+        $(document).one('mousemove', playBackgroundMusic);
+    }, 3000);    
     $('#settingsBtn').on('click', function() {
         $('.settings-modal').css('display', 'flex');
         $('.home-header').css('display', 'flex');

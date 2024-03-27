@@ -144,8 +144,8 @@ body {
     display: none;
     align-items: center;
     flex-direction: column;
-    gap: 90px;
-    transform: translateY(18%);
+    gap: 50px;
+    padding-top: 70px;
     justify-content: space-between;
     margin-inline: auto;
     max-width: 400px;
@@ -164,7 +164,7 @@ body {
 .home-options {
     position: fixed;
     color: var(--white);
-    bottom: 30px; 
+    bottom: 35px; 
     left: 0;
     right: 0;
     display: none;
@@ -999,13 +999,13 @@ input[type="text"]:focus::placeholder {
     align-items: center;
     justify-content: center;
     gap: 15px;
-    padding-top: 20px;
+    padding-top: 10px;
     z-index: -1;
 }
 
 .cards-container img {
     object-fit: cover;
-    max-width: 30%;
+    max-width: 25%;
 }
 
 
@@ -1159,10 +1159,10 @@ input[type="text"]:focus::placeholder {
       transform: scale(0.98) rotateY(0);
     }
     95% {
-      opacity: 1; /* Maintain opacity at 1 until 95% */
+      opacity: 1; 
     }
     100% {
-      opacity: 0; /* Set opacity back to 0 at 100% */
+      opacity: 1; 
       transform: scale(1);
     }
 }

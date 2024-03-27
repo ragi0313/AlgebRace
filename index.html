@@ -12,9 +12,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <audio id="bgMusic" paused>
-   <source src="music/peaches.mp3" type="audio/mpeg">
-  </audio>
   <audio id="myAudio" paused class="sound-effect">
     <source src="music/button-click.mp3" type="audio/mpeg">
   </audio>
@@ -53,7 +50,7 @@
   <div class="loading-page">
     <div class="logo-first-container">
       <div class="image-container">
-        <img id="logo-img" src="images/logo.png" alt="">
+        <img id="logo-img" src="images/logo.png" alt="" width="500">
       </div>
     </div>  
     <img src="images/background/globe.png" alt="" class="globe">
@@ -335,21 +332,21 @@
         <div id="grid" class="grid">
           <div class="tile finish edge reverse" id="b100"><img src="images/game-components/finish.png" alt="" width="70" class="finish-img"></div>
           <div class="tile reverse" id="b99">99</div>
-          <div class="tile reverse" id="b98">98</div>
+          <div class="tile reverse math-time" id="b98">98</div>
           <div class="tile reverse" id="b97">97</div>
-          <div class="tile reverse" id="b96">96</div>
+          <div class="tile reverse math-time" id="b96">96</div>
           <div class="tile reverse" id="b95">95</div>
           <div class="tile reverse" id="b94">94</div>
           <div class="tile math-time reverse" id="b93">93</div>
           <div class="tile math-time reverse" id="b92">92</div>
-          <div class="tile edge move-down reverse" id="b91"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>91</div>
+          <div class="tile edge move-down reverse math-time" id="b91"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>91</div>
 
           <div class="tile move-down-right edge" id="b81"><span class="left-edge-odd"></span><span class="left-edge-odd"></span><span class="left-edge-odd"></span>81</div>
           <div class="tile" id="b82">82</div>
           <div class="tile charge" id="b83">83</div>
           <div class="tile math-time" id="b84">84</div>
           <div class="tile" id="b85">85</div>
-          <div class="tile" id="b86">86</div>
+          <div class="tile math-time" id="b86">86</div>
           <div class="tile chance" id="b87">87</div>
           <div class="tile chance" id="b88">88</div>
           <div class="tile math-time" id="b89">89</div>
@@ -360,7 +357,7 @@
           <div class="tile charge reverse" id="b79">79</div>
           <div class="tile chance reverse" id="b78">78</div>
           <div class="tile reverse" id="b77">77</div>
-          <div class="tile reverse" id="b76">76</div>
+          <div class="tile reverse math-time" id="b76">76</div>
           <div class="tile reverse ladder" id="b75">75</div>
           <div class="tile reverse" id="b74">74</div>
           <div class="tile math-time reverse" id="b73">73</div>
@@ -369,7 +366,7 @@
 
           <div class="tile move-down-right edge" id="b61"><span class="left-edge-odd"></span><span class="left-edge-odd"></span><span class="left-edge-odd"></span>61</div>
           <div class="tile" id="b62">62</div>
-          <div class="tile" id="b63">63</div>
+          <div class="tile math-time" id="b63">63</div>
           <div class="tile" id="b64">64</div>
           <div class="tile math-time" id="b65">65</div>
           <div class="tile" id="b66">66</div>
@@ -380,24 +377,24 @@
 
           <div class="tile math-time move-right edge reverse" id="b60"><span class="left-edge-even"></span><span class="left-edge-even"></span><span class="left-edge-even"></span>60</div>
           <div class="tile reverse" id="b59">59</div>
-          <div class="tile reverse" id="b58">58</div>
+          <div class="tile reverse math-time" id="b58">58</div>
           <div class="tile charge reverse" id="b57">57</div>
           <div class="tile chance reverse" id="b56">56</div>
           <div class="tile math-time reverse" id="b55">55</div>
           <div class="tile reverse" id="b54">54</div>
-          <div class="tile reverse" id="b53">53</div>
+          <div class="tile reverse math-time" id="b53">53</div>
           <div class="tile reverse" id="b52">52</div>
           <div class="tile move-down reverse" id="b51"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>51</div>
 
           <div class="tile move-down-right edge" id="b41"><span class="left-edge-odd"></span><span class="left-edge-odd"></span><span class="left-edge-odd"></span>41</div>
           <div class="tile" id="b42">42</div>
-          <div class="tile" id="b43">43</div>
-          <div class="tile" id="b44">44</div>
+          <div class="tile chance" id="b43">43</div>
+          <div class="tile math-time" id="b44">44</div>
           <div class="tile" id="b45">45</div>
-          <div class="tile charge" id="b46">46</div>
-          <div class="tile" id="b47">47</div>
+          <div class="tile math-time" id="b46">46</div>
+          <div class="tile chance" id="b47">47</div>
           <div class="tile" id="b48">48</div>
-          <div class="tile" id="b49">49</div>
+          <div class="tile charge" id="b49">49</div>
           <div class="tile math-time edge" id="b50"><span class="right-edge-even"></span><span class="right-edge-even"></span><span class="right-edge-even"></span>50</div>
 
           <div class="tile move-right edge reverse" id="b40"><span class="left-edge-even"></span><span class="left-edge-even"></span><span class="left-edge-even reverse"></span>40</div>
@@ -413,7 +410,7 @@
 
           <div class="tile move-down-right edge" id="b21"><span class="left-edge-odd"></span><span class="left-edge-odd"></span><span class="left-edge-odd"></span>21</div>
           <div class="tile charge" id="b22">22</div>
-          <div class="tile" id="b23">23</div>
+          <div class="tile math-time" id="b23">23</div>
           <div class="tile" id="b24">24</div>
           <div class="tile math-time" id="b25">25</div>
           <div class="tile" id="b26">26</div>
@@ -424,23 +421,23 @@
 
           <div class="tile math-time move-right edge" id="b20"><span class="left-edge-even"></span><span class="left-edge-even"></span><span class="left-edge-even"></span>20</div>
           <div class="tile" id="b19">19</div>
-          <div class="tile" id="b18">18</div>
+          <div class="tile math-time" id="b18">18</div>
           <div class="tile charge" id="b17">17</div>
           <div class="tile" id="b16">16</div>
           <div class="tile math-time" id="b15">15</div>
           <div class="tile" id="b14">14</div>
           <div class="tile chance" id="b13">13</div>
-          <div class="tile" id="b12">12</div>
+          <div class="tile math-time" id="b12">12</div>
           <div class="tile move-down edge" id="b11"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>11</div>
 
           <div class="tile edge" id="b01" style="position: relative;"><div id="p1"></div><div id="p2"></div><img src="images/game-components/start.png" alt="" width="80" class="start-img"></div>
           <div class="tile" id="b02"><div id="p1"></div><div id="p2"></div>2</div>
           <div class="tile charge" id="b03"><div id="p1"></div><div id="p2"></div>3</div>
-          <div class="tile" id="b04"><div id="p1"></div><div id="p2"></div>4</div>
+          <div class="tile math-time" id="b04"><div id="p1"></div><div id="p2"></div>4</div>
           <div class="tile" id="b05"><div id="p1"></div><div id="p2"></div>5</div>
           <div class="tile charge" id="b06"><div id="p1"></div><div id="p2"></div>6</div>
           <div class="tile charge" id="b07"><div id="p1"></div><div id="p2"></div>7</div>
-          <div class="tile" id="b08"><div id="p1"></div><div id="p2"></div>8</div>
+          <div class="tile math-time" id="b08"><div id="p1"></div><div id="p2"></div>8</div>
           <div class="tile chance" id="b09"><div id="p1"></div><div id="p2"></div>9</div>
           <div class="tile edge" id="b10"><span class="right-edge-even"></span><span class="right-edge-even"></span><span class="right-edge-even"></span><div id="p1"></div><div id="p2"></div>10</div>
 

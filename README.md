@@ -1,1 +1,1 @@
-# AlgebRace
+# A mobile app for a research project

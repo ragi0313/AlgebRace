@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgebRace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Unbounded:wght@200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bgMusic" paused>
+   <source src="music/peaches.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="myAudio" paused class="sound-effect">
+    <source src="music/button-click.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="wrong" paused class="sound-effect">
+    <source src="music/wrong.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="correct" paused class="sound-effect">
+    <source src="music/correct.mp3" type="audio/mpeg">
+  </audio>
+  <div class="overlay"></div>
+  <div class="home-header">
+    <div>
+      <img src="images/header-logo.png" alt="" width="90">
+    </div>
+    <div>
+      <img src="images/header-play.png" alt="" width="90">
+    </div>
+  </div>
+
+  <div class="home-options">
+    <div class="selections" id="settingsBtn" onclick="playSound()">
+      <img src="images/settings.png" alt="" width="50" class="option-icons settings">
+      <span class="desc">settings</span>
+    </div>
+    <div class="selections" id="htpBtn"  onclick="playSound()">
+      <img src="images/htp.png" alt="" width="60" class="option-icons">
+      <span class="desc">how to <br> play?</span>
+    </div>
+    <div class="selections" id="profileBtn"  onclick="playSound()">
+      <img src="images/profile.png" alt="" width="60" class="option-icons">
+      <span class="desc">profile</span>
+    </div>
+  </div>
+
+  <img src="images/background/factory.png" alt="" class="factory" width="350">
+  <div class="loading-page">
+    <div class="logo-first-container">
+      <div class="image-container">
+        <img id="logo-img" src="images/logo.png" alt="">
+      </div>
+    </div>  
+    <img src="images/background/globe.png" alt="" class="globe">
+  </div>
+
+  <div class="home">
+    <div>
+      <img src="images/logo.png" alt="" class="logo-home" id="homeLogo">
+    </div>
+    <div class="play-button" onclick="playSound()">
+      <img src="images/play.png" alt="" class="play-button-home" width="240" id="playBtn">
+    </div>
+    <div class="settings-modal">
+      <div class="settings-heading">
+        <div class="heading-text">
+          <img src="images/settings-modal/settings-modal.png" alt="" width="48" height="48">
+          <span class="htp-text">Settings</span>
+        </div>
+        <div class="modal-close">
+          <img src="images/close-button.png" alt="" width="46" height="46" id="settingsClose" onclick="playSound()">
+        </div>
+      </div>
+      <div class="volumes">
+        <div class="volume-box-container">
+          <div class="volume-icon">
+            <img src="images/settings-modal/sound.png" alt="" width="52">
+          </div>
+          <div class="volume-box">
+            <input type="range" class="volume-range sounds" value="100" min="0" max="100">
+          </div>
+        </div>
+      </div>
+      <div class="volumes">
+        <div class="volume-box-container">
+          <div class="volume-icon">
+            <img src="images/settings-modal/music.png" alt="" width="52">
+          </div>
+          <div class="volume-box">
+            <input type="range" class="volume-range music" value="100" min="0" max="100">
+          </div>
+        </div>
+      </div>
+      <div class="volumes">
+        <div class="volume-box-container">
+          <div class="volume-icon">
+            <img src="images/settings-modal/bright.png" alt="" width="52">
+          </div>
+          <div class="volume-box">
+            <input type="range" class="volume-range brightness" value="100" min="0" max="100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="htp-modal">
+      <div class="settings-heading">
+        <div class="heading-text">
+          <img src="images/htp-modal/htp-modal.png" alt="" width="58" height="58">
+          <span class="htp-text">How to Play</span>
+        </div>
+        <div class="modal-close" onclick="playSound()">
+          <img src="images/close-button.png" alt="" width="42" height="42" style="object-fit: cover;" id="htpClose">
+          <i class="fas fa-arrow-left back-btn"></i>
+        </div>
+      </div>
+      <div class="htp-desc">
+        <img src="images/htp-modal/htp-dice.png" alt="">
+        <div class="htp-text">
+          <h2>Roll the Dice to determine how far you move</h2>
+          <div class="divider"></div>
+          <div class="htp-text-bottom">
+            <h2>You may land on the following colored tiles:</h2>
+          </div>
+        </div>
+      </div>
+      <div class="htp-tile-mechanics">
+        <div class="htp-tile" id="blueTile" onclick="playSound()">
+          <h2 class="htp-tile-text">Blue Tile</h2>
+          <img src="images/htp-modal/chance-icon.png" alt="" width="72">
+        </div>
+        <div class="htp-tile" id="greenTile" onclick="playSound()">
+          <h2 class="htp-tile-text">Green Tile</h2>
+          <img src="images/htp-modal/charge-icon.png" alt="" width="72">
+        </div>
+        <div class="htp-tile" id="redTile" onclick="playSound()">
+          <h2 class="htp-tile-text">Red Tile</h2>
+          <img src="images/htp-modal/math-time-icon.png" alt="" width="72">
+        </div>
+      </div>
+
+      <div class="blue-tile-modal">
+        <div class="tile-heading">
+          <div class="tile-left">
+            <h2 class="htp-tile-text">Blue Tile</h2>
+            <img src="images/htp-modal/chance-icon.png" alt="" width="72">
+          </div>
+          <div class="tile-right">
+            <img src="images/htp-modal/blue-tile-info.png" alt="">
+          </div>
+        </div>
+        <div class="tile-content">
+          <p class="tile-content-text">
+            A random CHANCE card will pop up when your chosen race piece landed on the blue/chance tile. The card contains AIR POLLUTION preventive measures with consecutive advantages.
+          </p>
+        </div>
+      </div>
+      
+      <div class="green-tile-modal">
+        <div class="tile-heading">
+          <div class="tile-left">
+            <h2 class="htp-tile-text">Green Tile</h2>
+            <img src="images/htp-modal/charge-icon.png" alt="" width="72">
+          </div>
+          <div class="tile-right">
+            <img src="images/htp-modal/green-tile-info.png" alt="">
+          </div>
+        </div>
+        <div class="tile-content">
+          <p class="tile-content-text">
+            A random CHARGE card will pop up when your chosen race piece landed on the green/charge tile. The card contains AIR POLLUTION causes with consecutive disadvantages.
+          </p>
+        </div>
+      </div>
+
+      <div class="red-tile-modal">
+        <div class="tile-heading">
+          <div class="tile-left">
+            <h2 class="htp-tile-text">Red Tile</h2>
+            <img src="images/htp-modal/math-time-icon.png" alt="" width="72">
+          </div>
+          <div class="tile-right">
+            <img src="images/htp-modal/red-tile-info.png" alt="">
+          </div>
+        </div>
+        <div class="tile-content">
+          <p class="tile-content-text">
+            A random Algebraic question will pop up from the "Oh no! It's Math Time" deck. You will have to answer this to advance. Failure to answer the question correctly will result to a consequence indicated in the card.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-modal">
+      <div class="settings-heading">
+        <div class="heading-text">
+          <img src="images/profile-modal/profile-heading.png" alt="" width="46" height="46">
+          <span class="htp-text">Profile</span>
+        </div>
+        <div class="modal-close">
+          <img src="images/close-button.png" alt="" width="42" height="42" style="object-fit: cover;" id="profileClose" onclick="playSound()">
+        </div>
+      </div>
+      <div class="username-container">
+          <button type="submit" class="submit-btn" id="applyBtn" onclick="playSound()">Apply</button>
+          <input type="text" placeholder="Nickname" id="nicknameInput">
+          <input type="text" placeholder="@Username" id="usernameInput">
+          <img src="images/profile-modal/placeholder-profile.png" alt="" class="placeholder-img" id="placeholderImg">
+          <img src="images/profile-modal/placeholder-bg.png" alt="" class="placeholder-bg" id="placeholderBg">
+      </div>
+      <h2 class="avatar-title">Avatars</h2>
+      <div class="avatars-container">
+        <div class="avatar-wrapper" id="avatarWrapper">
+          <img src="images/profile-modal/avatar-1.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-1.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-2.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-2.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-3.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-3.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-4.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-4.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-5.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-5.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-6.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-6.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-7.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-7.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-8.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-8.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-9.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-9.png" onclick="playSound()">
+          <img src="images/profile-modal/avatar-10.png" alt="" class="avatar" data-avatar="images/profile-modal/avatar-10.png" onclick="playSound()">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="game-page"> 
+    <div class="game-page-header">
+      <div class="openbtn" onclick="playSound()"><span></span><span></span><span></span></div>
+      <img src="images/header-logo.png" alt="" width="90" class="game-logo-header">
+    </div>
+    <div class="settings-modal">
+      <div class="settings-heading">
+        <div class="heading-text">
+          <img src="images/settings-modal/settings-modal.png" alt="" width="48" height="48">
+          <span class="htp-text">Settings</span>
+        </div>
+        <div class="modal-close">
+          <img src="images/close-button.png" alt="" width="46" height="46" id="closeGameSettings" onclick="playSound()">
+        </div>
+      </div>
+      <img src="images/logo.png" alt="" class="settings-logo">
+      <div class="volumes">
+        <div class="volume-box-container">
+          <div class="volume-icon">
+            <img src="images/settings-modal/sound.png" alt="" width="52">
+          </div>
+          <div class="volume-box">
+            <input type="range" class="volume-range sounds" value="100" min="0" max="100">
+          </div>
+        </div>
+      </div>
+      <div class="volumes">
+        <div class="volume-box-container">
+          <div class="volume-icon">
+            <img src="images/settings-modal/music.png" alt="" width="52">
+          </div>
+          <div class="volume-box">
+            <input type="range" class="volume-range music" value="100" min="0" max="100">
+          </div>
+        </div>
+      </div>
+      <div class="volumes">
+        <div class="volume-box-container">
+          <div class="volume-icon">
+            <img src="images/settings-modal/bright.png" alt="" width="52">
+          </div>
+          <div class="volume-box">
+            <input type="range" class="volume-range brightness" value="100" min="0" max="100">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bike-options" id="playerOne" style="display: none;">
+      <div class="bike-options-container">
+        <div class="upper-text">
+          <h1>choose your race piece</h1>
+          <p>1st PLAYER</p>
+        </div>
+        <div class="bike-selections">
+          <div class="bike-piece" id="yellow" >
+            <img src="images/game-components/yellow-bike.png" alt="" width="160">
+          </div>
+          <div class="bike-piece" id="blue">
+            <img src="images/game-components/blue-bike.png" alt="" width="160">
+          </div>
+          <div class="bike-piece" id="pink">
+            <img src="images/game-components/pink-bike.png" alt="" width="160">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bike-options" id="playerTwo" style="display: none;">
+      <div class="bike-options-container">
+        <div class="upper-text">
+          <h1>choose your race piece</h1>
+          <p>2nd PLAYER</p>
+        </div>
+        <div class="bike-selections">
+          <div class="bike-piece" id="yellow">
+            <img src="images/game-components/yellow-bike.png" alt="" width="160">
+          </div>
+          <div class="bike-piece" id="blue">
+            <img src="images/game-components/blue-bike.png" alt="" width="160">
+          </div>
+          <div class="bike-piece" id="pink">
+            <img src="images/game-components/pink-bike.png" alt="" width="160">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="game-container">
+      <div class="dice-tog-holder">
+        <div class="dice" id="roll">
+          <div class="face front"></div>
+          <div class="face back"></div>
+          <div class="face top"></div>
+          <div class="face bottom"></div>
+          <div class="face right"></div>
+          <div class="face left"></div>
+        </div>
+        <div id="tog"></div>
+      </div>
+      <div class="game-board-container">
+        <div id="grid" class="grid">
+          <div class="tile finish edge reverse" id="b100"><img src="images/game-components/finish.png" alt="" width="70" class="finish-img"></div>
+          <div class="tile reverse" id="b99">99</div>
+          <div class="tile reverse" id="b98">98</div>
+          <div class="tile reverse" id="b97">97</div>
+          <div class="tile reverse" id="b96">96</div>
+          <div class="tile reverse" id="b95">95</div>
+          <div class="tile reverse" id="b94">94</div>
+          <div class="tile math-time reverse" id="b93">93</div>
+          <div class="tile math-time reverse" id="b92">92</div>
+          <div class="tile edge move-down reverse" id="b91"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>91</div>
+
+          <div class="tile move-down-right edge" id="b81"><span class="left-edge-odd"></span><span class="left-edge-odd"></span><span class="left-edge-odd"></span>81</div>
+          <div class="tile" id="b82">82</div>
+          <div class="tile charge" id="b83">83</div>
+          <div class="tile math-time" id="b84">84</div>
+          <div class="tile" id="b85">85</div>
+          <div class="tile" id="b86">86</div>
+          <div class="tile chance" id="b87">87</div>
+          <div class="tile chance" id="b88">88</div>
+          <div class="tile math-time" id="b89">89</div>
+
+          <div class="tile charge edge" id="b90"><span class="right-edge-even"></span><span class="right-edge-even"></span><span class="right-edge-even"></span>90</div>
+
+          <div class="tile math-time move-right edge reverse" id="b80"><span class="left-edge-even"></span><span class="left-edge-even"></span><span class="left-edge-even reverse"></span>80</div>
+          <div class="tile charge reverse" id="b79">79</div>
+          <div class="tile chance reverse" id="b78">78</div>
+          <div class="tile reverse" id="b77">77</div>
+          <div class="tile reverse" id="b76">76</div>
+          <div class="tile reverse ladder" id="b75">75</div>
+          <div class="tile reverse" id="b74">74</div>
+          <div class="tile math-time reverse" id="b73">73</div>
+          <div class="tile reverse" id="b72">72</div>
+          <div class="tile move-down reverse" id="b71"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>71</div>
+
+          <div class="tile move-down-right edge" id="b61"><span class="left-edge-odd"></span><span class="left-edge-odd"></span><span class="left-edge-odd"></span>61</div>
+          <div class="tile" id="b62">62</div>
+          <div class="tile" id="b63">63</div>
+          <div class="tile" id="b64">64</div>
+          <div class="tile math-time" id="b65">65</div>
+          <div class="tile" id="b66">66</div>
+          <div class="tile chance" id="b67">67</div>
+          <div class="tile chance" id="b68">68</div>
+          <div class="tile" id="b69">69</div>
+          <div class="tile math-time edge" id="b70"><span class="right-edge-even"></span><span class="right-edge-even"></span><span class="right-edge-even"></span>70</div>
+
+          <div class="tile math-time move-right edge reverse" id="b60"><span class="left-edge-even"></span><span class="left-edge-even"></span><span class="left-edge-even"></span>60</div>
+          <div class="tile reverse" id="b59">59</div>
+          <div class="tile reverse" id="b58">58</div>
+          <div class="tile charge reverse" id="b57">57</div>
+          <div class="tile chance reverse" id="b56">56</div>
+          <div class="tile math-time reverse" id="b55">55</div>
+          <div class="tile reverse" id="b54">54</div>
+          <div class="tile reverse" id="b53">53</div>
+          <div class="tile reverse" id="b52">52</div>
+          <div class="tile move-down reverse" id="b51"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>51</div>
+
+          <div class="tile move-down-right edge" id="b41"><span class="left-edge-odd"></span><span class="left-edge-odd"></span><span class="left-edge-odd"></span>41</div>
+          <div class="tile" id="b42">42</div>
+          <div class="tile" id="b43">43</div>
+          <div class="tile" id="b44">44</div>
+          <div class="tile" id="b45">45</div>
+          <div class="tile charge" id="b46">46</div>
+          <div class="tile" id="b47">47</div>
+          <div class="tile" id="b48">48</div>
+          <div class="tile" id="b49">49</div>
+          <div class="tile math-time edge" id="b50"><span class="right-edge-even"></span><span class="right-edge-even"></span><span class="right-edge-even"></span>50</div>
+
+          <div class="tile move-right edge reverse" id="b40"><span class="left-edge-even"></span><span class="left-edge-even"></span><span class="left-edge-even reverse"></span>40</div>
+          <div class="tile math-time reverse" id="b39">39</div>
+          <div class="tile reverse" id="b38">38</div>
+          <div class="tile chance reverse" id="b37">37</div>
+          <div class="tile charge reverse" id="b36">36</div>
+          <div class="tile reverse" id="b35">35</div>
+          <div class="tile chance reverse" id="b34">34</div>
+          <div class="tile math-time reverse" id="b33">33</div>
+          <div class="tile reverse" id="b32">32</div>
+          <div class="tile move-down chance edge reverse" id="b31"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>31</div>
+
+          <div class="tile move-down-right edge" id="b21"><span class="left-edge-odd"></span><span class="left-edge-odd"></span><span class="left-edge-odd"></span>21</div>
+          <div class="tile charge" id="b22">22</div>
+          <div class="tile" id="b23">23</div>
+          <div class="tile" id="b24">24</div>
+          <div class="tile math-time" id="b25">25</div>
+          <div class="tile" id="b26">26</div>
+          <div class="tile charge" id="b27">27</div>
+          <div class="tile" id="b28">28</div>
+          <div class="tile charge" id="b29">29</div>
+          <div class="tile math-time edge" id="b30"><span class="right-edge-even"></span><span class="right-edge-even"></span><span class="right-edge-even"></span>30</div>
+
+          <div class="tile math-time move-right edge" id="b20"><span class="left-edge-even"></span><span class="left-edge-even"></span><span class="left-edge-even"></span>20</div>
+          <div class="tile" id="b19">19</div>
+          <div class="tile" id="b18">18</div>
+          <div class="tile charge" id="b17">17</div>
+          <div class="tile" id="b16">16</div>
+          <div class="tile math-time" id="b15">15</div>
+          <div class="tile" id="b14">14</div>
+          <div class="tile chance" id="b13">13</div>
+          <div class="tile" id="b12">12</div>
+          <div class="tile move-down edge" id="b11"><span class="right-edge-odd"></span><span class="right-edge-odd"></span><span class="right-edge-odd"></span>11</div>
+
+          <div class="tile edge" id="b01" style="position: relative;"><div id="p1"></div><div id="p2"></div><img src="images/game-components/start.png" alt="" width="80" class="start-img"></div>
+          <div class="tile" id="b02"><div id="p1"></div><div id="p2"></div>2</div>
+          <div class="tile charge" id="b03"><div id="p1"></div><div id="p2"></div>3</div>
+          <div class="tile" id="b04"><div id="p1"></div><div id="p2"></div>4</div>
+          <div class="tile" id="b05"><div id="p1"></div><div id="p2"></div>5</div>
+          <div class="tile charge" id="b06"><div id="p1"></div><div id="p2"></div>6</div>
+          <div class="tile charge" id="b07"><div id="p1"></div><div id="p2"></div>7</div>
+          <div class="tile" id="b08"><div id="p1"></div><div id="p2"></div>8</div>
+          <div class="tile chance" id="b09"><div id="p1"></div><div id="p2"></div>9</div>
+          <div class="tile edge" id="b10"><span class="right-edge-even"></span><span class="right-edge-even"></span><span class="right-edge-even"></span><div id="p1"></div><div id="p2"></div>10</div>
+
+
+        </div>
+        <div class="charge-pop" id="charge1">
+          <img src="images/green-cards/charge-moveback1.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge2">
+          <img src="images/green-cards/charge-retreat-2.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge3">
+          <img src="images/green-cards/charge-reverse2.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge4">
+          <img src="images/green-cards/charge-twostepback.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge5">
+          <img src="images/green-cards/charge-backtrack3.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge6">
+          <img src="images/green-cards/charge-moverearward-3.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge7">
+          <img src="images/green-cards/charge-moveback3.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge8">
+          <img src="images/green-cards/charge-threestepback.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge9">
+          <img src="images/green-cards/charge-retreat-4.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge10">
+          <img src="images/green-cards/charge-retreat-4fire.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge11">
+          <img src="images/green-cards/charge-withdraw-4.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge12">
+          <img src="images/green-cards/charge-retrace4.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge13">
+          <img src="images/green-cards/charge-goback-5.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge14">
+          <img src="images/green-cards/charge-undo5.png" alt="">
+        </div>
+        <div class="charge-pop" id="charge15">
+          <img src="images/green-cards/charge-backtrack5.png" alt="">
+        </div>
+
+
+        <div class="chance-pop" id="chance1">
+          <img src="images/blue-cards/chance-stepforward1.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance2">
+          <img src="images/blue-cards/chance-shift2.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance3">
+          <img src="images/blue-cards/chance-goahead2.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance4">
+          <img src="images/blue-cards/chance-move3.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance5">
+          <img src="images/blue-cards/chance-cover3.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance6">
+          <img src="images/blue-cards/chance-gover3.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance7">
+          <img src="images/blue-cards/chance-travel3.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance8">
+          <img src="images/blue-cards/chance-advance-4.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance9">
+          <img src="images/blue-cards/chance-up4.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance10">
+          <img src="images/blue-cards/chance-move4.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance11">
+          <img src="images/blue-cards/chance-travel4.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance12">
+          <img src="images/blue-cards/chance-advance4.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance13">
+          <img src="images/blue-cards/chance-propel5.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance14">
+          <img src="images/blue-cards/chance-travel5.png" alt="">
+        </div>
+        <div class="chance-pop" id="chance15">
+          <img src="images/blue-cards/chance-proceed5.png" alt="">
+        </div>
+
+        <div class="math-pop">
+        </div>
+        <div class="p1-win">
+            <img src="images/game-components/player1-win.png" alt="" class="p1-win-card">
+            <img src="images/game-components/back-to-home.png" alt="" class="back">
+        </div>
+        <div class="p2-win">
+            <img src="images/game-components/player2-win.png" alt="" class="p2-win-card">
+            <img src="images/game-components/back-to-home.png" alt="" class="back">
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="cards-container">
+      <img src="images/game-components/math-card.png" alt="" class="greensht">
+      <img src="images/game-components/charge-card.png" alt="">
+      <img src="images/game-components/chance-card.png" alt="">
+    </div>
+
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="animations.js" type="module"></script>
+  <script src="gameboard.js" type="module"></script>
+  <script>
+    function playSound() {
+      var audio = document.getElementById('myAudio');
+      audio.play();
+    }
+  </script>
+</body>
+</html>

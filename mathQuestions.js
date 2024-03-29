@@ -7,7 +7,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = 15', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = x⁴ - 4x³ + 6x² - 4x + 1; at x = 1',
@@ -17,7 +17,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = 13', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'h(x) = 3x⁵ + 2x⁴ - 5x³ + x²- 8x + 4; at x = -1',
@@ -27,7 +27,7 @@ export const mathQuestions = [
             { label: 'c. h(x) = 5', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'p(x) = 4x² - 9x + 2; at x = 3',
@@ -37,7 +37,7 @@ export const mathQuestions = [
             { label: 'c. p(x) = 23', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'q(x) = x³ - 2x² + 5x - 4; at x = 2',
@@ -47,7 +47,7 @@ export const mathQuestions = [
             { label: 'c. q(x) = 6', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'r(x) = -2x⁴ + 3x³ - 7x² + 6x - 1; at x = 0',
@@ -57,7 +57,7 @@ export const mathQuestions = [
             { label: 'c. r(x) = -5', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 's(x) = x⁴ + 2x³ - 3x² - 4x + 2; at x = 1',
@@ -67,7 +67,7 @@ export const mathQuestions = [
             { label: 'c. s(x) = -8', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 't(x) = 3x³ - 6x² + 9x - 12; at x = 2',
@@ -77,7 +77,7 @@ export const mathQuestions = [
             { label: 'c. t(x) = 12', isCorrect: false }  
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'u(x) = 2x⁴ + 4x³ - 6x² - 8x + 10; at x = -1',
@@ -87,7 +87,7 @@ export const mathQuestions = [
             { label: 'c. u(x) = 30', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'v(x) = x⁵ - x⁴ + x³ - x² + x - 1; at x = 0',
@@ -97,7 +97,7 @@ export const mathQuestions = [
             { label: 'c. v(x) = -1', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'w(x) = -4x³ + 5x² - 3x + 7; at x = 1',
@@ -107,7 +107,7 @@ export const mathQuestions = [
             { label: 'c. w(x) = 15', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'y(x) = 2x⁴ - 3x³ + 4x² - 5x + 6; at x = 2',
@@ -117,7 +117,7 @@ export const mathQuestions = [
             { label: 'c. y(x) = 99', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'z(x) = x³+ 3x² - 4x - 2; at x = 3',
@@ -127,7 +127,7 @@ export const mathQuestions = [
             { label: 'c. z(x) = 80', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'a(x) = -3x² + 6x - 9; at x = -1',
@@ -137,7 +137,7 @@ export const mathQuestions = [
             { label: 'c. a(x) = -12', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'b(x) = 4x³ - 8x² + 12x - 16; at x = 2',
@@ -147,7 +147,7 @@ export const mathQuestions = [
             { label: 'c. b(x) = 9', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'c(x) = x⁴ + 4x³ + 6x² + 4x + 1; at x = -1',
@@ -157,7 +157,7 @@ export const mathQuestions = [
             { label: 'c. c(x) = 1', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'd(x) = -2x³ + 5x²- 4x + 3; at x = 1',
@@ -167,7 +167,7 @@ export const mathQuestions = [
             { label: 'c. d(x) = 2', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'e(x) = 3x⁴ - 5x³ + 7x² - 9x + 11; at x = 0',
@@ -177,7 +177,7 @@ export const mathQuestions = [
             { label: 'c. e(x) = 11', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = x⁵ + 2x⁴ + 3x³ + 4x² + 5x + 6; at x = -2',
@@ -187,7 +187,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = -32', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = -x⁴ + 3x³ - 5x² + 7x - 9; at x = 1',
@@ -197,7 +197,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = -3', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = 2x² - 3x + 5; at x = 1',
@@ -207,7 +207,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = 12', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = x³ + 2x² - x - 3; at x = -1',
@@ -217,7 +217,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = -5', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'h(x) = 4x⁴ - x³ + 3x² + 2x + 1; at x = 0',
@@ -227,7 +227,7 @@ export const mathQuestions = [
             { label: 'c. h(x) = 1', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'p(x) = 3x² - 2x + 7; at x = 2',
@@ -237,7 +237,7 @@ export const mathQuestions = [
             { label: 'c. p(x) = 11', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'q(x) = x⁴ + 5x³ + 4x² + 2x + 6; at x = 3',
@@ -247,7 +247,7 @@ export const mathQuestions = [
             { label: 'c. q(x) = 9', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'r(x) = 2x³ + 4x² - x + 8; at x = 1',
@@ -257,7 +257,7 @@ export const mathQuestions = [
             { label: 'c. r(x) = 12', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 's(x) = x³ + 3x² - 2x + 5; at x = 2',
@@ -267,7 +267,7 @@ export const mathQuestions = [
             { label: 'c. s(x) = 21', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 't(x) = 2x⁴ - x³ + 3x² + 2x - 1; at x = 1',
@@ -277,7 +277,7 @@ export const mathQuestions = [
             { label: 'c. t(x) = 8', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'u(x) = -3x² + 2x - 1; at x = -1',
@@ -287,7 +287,7 @@ export const mathQuestions = [
             { label: 'c. u(x) = 4', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'v(x) = x⁵ + x⁴ - 2x³ - 4x² + 3x - 1; at x = 2',
@@ -297,7 +297,7 @@ export const mathQuestions = [
             { label: 'c. v(x) = 21', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'w(x) = 4x³ - 2x² + 5x - 3; at x = 0',
@@ -307,7 +307,7 @@ export const mathQuestions = [
             { label: 'c. w(x) = 8', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'y(x) = -x⁴ + 2x³ - 3x² + 4x - 5; at x = -2',
@@ -317,7 +317,7 @@ export const mathQuestions = [
             { label: 'c. y(x) = 5', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'z(x) = 2x³  + 4x² + 4x - 5; at x = -2',
@@ -327,7 +327,7 @@ export const mathQuestions = [
             { label: 'c. z(x) = 4', isCorrect: true }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'a(x) = 3x⁴ - 5x³ + 2x² - x + 7; at x = -1',
@@ -337,7 +337,7 @@ export const mathQuestions = [
             { label: 'c. a(x) = 10', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'b(x) = -2x² + 3x - 1; at x = 2',
@@ -347,7 +347,7 @@ export const mathQuestions = [
             { label: 'c. b(x) = 1', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'c(x) = x⁴ - x³ + x² - x + 1; at x = -1',
@@ -357,7 +357,7 @@ export const mathQuestions = [
             { label: 'c. c(x) = 5', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'd(x) = -3x³ + 2x² + 5x - 4; at x = 1',
@@ -367,7 +367,7 @@ export const mathQuestions = [
             { label: 'c. d(x) = 4', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'e(x) = 4x⁴ - 3x³ + 2x² - x + 5; at x = 0',
@@ -377,7 +377,7 @@ export const mathQuestions = [
             { label: 'c. e(x) = 8', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = x⁵ + 2x⁴ + 3x³ + 4x² + 5x + 6; at x = -2',
@@ -387,7 +387,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = -12', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = x³ + 2x² - 4x + 3; at x = 1',
@@ -397,7 +397,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = 4', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = x³ + 2x² - 4x + 3; at x = 1',
@@ -407,7 +407,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = 4', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = 3x² + 2x + 1; at x = 2',
@@ -417,7 +417,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = 9', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = x³ - 2x² + x + 1; at x = -1',
@@ -427,7 +427,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = -3', isCorrect: true }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'h(x) = 4x⁴ - 3x³ + 2x² - x + 3; at x = 0',
@@ -437,7 +437,7 @@ export const mathQuestions = [
             { label: 'c. h(x) = -1', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'p(x) = 2x³ - 5x² + 4x + 1; at x = 1',
@@ -447,7 +447,7 @@ export const mathQuestions = [
             { label: 'c. p(x) = 7', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'q(x) = x⁵ + 2x⁴ - 3x³ + 4x² - 5x + 6; at x = 2',
@@ -457,7 +457,7 @@ export const mathQuestions = [
             { label: 'c. q(x) = 58', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'r(x) = -x⁴ + 3x³ - 2x² + 5x -4; at x = -2',
@@ -467,7 +467,7 @@ export const mathQuestions = [
             { label: 'c. r(x) = -21', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 's(x) = 2x³ + x² - 3x + 2; at x = 1',
@@ -477,7 +477,7 @@ export const mathQuestions = [
             { label: 'c. s(x) = 5', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 't(x) = x⁴ - x³ + x² - x + 1; at x = 0',
@@ -487,7 +487,7 @@ export const mathQuestions = [
             { label: 'c. t(x) = 3', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'u(x) = -3x³ + 4x² - 2x + 3; at x = 1',
@@ -497,7 +497,7 @@ export const mathQuestions = [
             { label: 'c. u(x) = 2', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'v(x) = x² - 4x + 3; at x = 3',
@@ -507,7 +507,7 @@ export const mathQuestions = [
             { label: 'c. v(x) = 6', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'w(x) = 3x⁴ - 2x³ + x² - 4x + 5; at x = -1',
@@ -517,7 +517,7 @@ export const mathQuestions = [
             { label: 'c. w(x) = 21', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'y(x) = x⁵ - 5x⁴ + 4x³ - 3x² + 2x - 1; at x = 3',
@@ -527,7 +527,7 @@ export const mathQuestions = [
             { label: 'c. y(x) = -76', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'z(x) = -2x³ + 3x² - x + 4; at x = 2',
@@ -537,7 +537,7 @@ export const mathQuestions = [
             { label: 'c. z(x) = 9', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'a(x) = 4x³ - 3x² + 2x - 1; at x = -1',
@@ -547,7 +547,7 @@ export const mathQuestions = [
             { label: 'c. a(x) = 3', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'b(x) = x⁴ + 2x³ - 4x² + 3x - 1; at x = 1',
@@ -557,7 +557,7 @@ export const mathQuestions = [
             { label: 'c. b(x) = 1', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'c(x) = 3x³ + 2x² - x + 3; at x = -2',
@@ -567,7 +567,7 @@ export const mathQuestions = [
             { label: 'c. c(x) = -14', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'd(x) = x² - 2x + 1; at x = -2',
@@ -577,7 +577,7 @@ export const mathQuestions = [
             { label: 'c. d(x) = 8', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'e(x) = -x⁴ + x³ - x² + x - 1; at x = 0',
@@ -587,7 +587,7 @@ export const mathQuestions = [
             { label: 'c. e(x) = -1', isCorrect: true }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = 2x⁵ + x⁴ - 3x³ + 4x² - 5x + 6; at x = -1',
@@ -597,7 +597,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = -14', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = -3x³ + 4x² - x + 3; at x = 0',
@@ -607,7 +607,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = 5', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = x² + 3x + 2; at x = 1',
@@ -617,7 +617,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = 6', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = 2x³ - 5x² + 4x - 3; at x = -1',
@@ -627,7 +627,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = 8', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'h(x) = 3x⁴ - 2x³ + x² - 4x + 1; at x = 2',
@@ -637,7 +637,7 @@ export const mathQuestions = [
             { label: 'c. h(x) = -20', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'p(x) = x³ + 2x² - 5x + 1; at x = 0',
@@ -647,7 +647,7 @@ export const mathQuestions = [
             { label: 'c. p(x) = 1', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'q(x) = 4x² - 7x + 3; at x = 3',
@@ -657,7 +657,7 @@ export const mathQuestions = [
             { label: 'c. q(x) = 22', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'r(x) = 5x³ - 6x² + 4x - 2; at x = -2',
@@ -667,7 +667,7 @@ export const mathQuestions = [
             { label: 'c. r(x) = -69', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 's(x) = x⁴ - x³ + 2x² + 3x + 4; at x = 1',
@@ -677,7 +677,7 @@ export const mathQuestions = [
             { label: 'c. s(x) = 1', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 't(x) = 3x² + 5x - 2; at x = 1',
@@ -687,7 +687,7 @@ export const mathQuestions = [
             { label: 'c. t(x) = -8', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'u(x) = x³ + 4x² - 3x + 2; at x = 2',
@@ -697,7 +697,7 @@ export const mathQuestions = [
             { label: 'c. u(x) = 18', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'v(x) = 2x³ - 3x² + 5x - 1; at x = 1',
@@ -707,7 +707,7 @@ export const mathQuestions = [
             { label: 'c. v(x) = 3', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'w(x) = x⁴ - 2x³ + 3x² - 4x + 5; at x = 0',
@@ -717,7 +717,7 @@ export const mathQuestions = [
             { label: 'c. w(x) = 25', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'y(x) = 3x³ + 2x² - 5x + 4; at x = 1',
@@ -727,7 +727,7 @@ export const mathQuestions = [
             { label: 'c. y(x) = -4', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'z(x) = 4x⁴ - 6x³ + 2x² - 3x + 1; at x = -1',
@@ -737,7 +737,7 @@ export const mathQuestions = [
             { label: 'c. z(x) = 16', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'a(x) = x² - 3x + 5; at x = -2',
@@ -747,7 +747,7 @@ export const mathQuestions = [
             { label: 'c. a(x) = -24', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'b(x) = 2x³ + 4x² - x + 3; at x = 0',
@@ -757,7 +757,7 @@ export const mathQuestions = [
             { label: 'c. b(x) = -1', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'c(x) = 3x⁴ - 4x³ + 2x² + 3x - 1; at x = 1',
@@ -767,7 +767,7 @@ export const mathQuestions = [
             { label: 'c. c(x) = 3', isCorrect: true }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'd(x) = x³ - 2x² + 5x - 3; at x = 2',
@@ -777,7 +777,7 @@ export const mathQuestions = [
             { label: 'c. d(x) = 24', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'e(x) = 2x² + 3x - 1; at x = -1',
@@ -787,7 +787,7 @@ export const mathQuestions = [
             { label: 'c. e(x) = -4', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = 4x³ - 5x² + 3x - 2; at x = 1',
@@ -797,7 +797,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = 0', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = x⁴ + x³ - 2x² + 3x + 1; at x = 0',
@@ -807,7 +807,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = 1', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = 3x² + 5x - 2; at x = 2',
@@ -817,7 +817,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = 33', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = x³ - 4x² + 3x + 6; at x = -1',
@@ -827,7 +827,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = -2', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'h(x) = 2x⁴ - 7x³ + 5x² + 3x - 1; at x = 3',
@@ -837,7 +837,7 @@ export const mathQuestions = [
             { label: 'c. h(x) = 34', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'p(x) = 4x³ - 2x² + x + 9; at x = 1',
@@ -847,7 +847,7 @@ export const mathQuestions = [
             { label: 'c. p(x) = 11', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'q(x) = x⁵ - 3x⁴ + 4x³ + 2x² - x + 8; at x = 0',
@@ -857,7 +857,7 @@ export const mathQuestions = [
             { label: 'c. q(x) = 0', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'r(x) = -2x⁴ + 6x³ - 8x² + 5x - 3; at x = -1',
@@ -867,7 +867,7 @@ export const mathQuestions = [
             { label: 'c. r(x) = -24', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 's(x) = 3x² - 2x + 7; at x = 2',
@@ -877,7 +877,7 @@ export const mathQuestions = [
             { label: 'c. s(x) = 5', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 't(x) = x⁴ - 5x³ + 6x² + 4x + 3; at x = -1',
@@ -887,7 +887,7 @@ export const mathQuestions = [
             { label: 'c. t(x) = 25', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'u(x) = -x³ + 3x² - 4x + 7; at x = 1',
@@ -897,7 +897,7 @@ export const mathQuestions = [
             { label: 'c. u(x) = 5', isCorrect: true }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'v(x) = 2x³ + 7x² - 3x + 4; at x = -2',
@@ -907,7 +907,7 @@ export const mathQuestions = [
             { label: 'c. v(x) = 36', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'w(x) = x² - 4x + 3; at x = 3',
@@ -917,7 +917,7 @@ export const mathQuestions = [
             { label: 'c. w(x) = -1', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'y(x) = -3x⁴ + 2x³ + 5x² - 4x + 1; at x = 1',
@@ -927,7 +927,7 @@ export const mathQuestions = [
             { label: 'c. y(x) = 1', isCorrect: true }
         ],
         value: 1,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'z(x) = x⁵ + 2x⁴ - x³ + 4x² - 3x + 6; at x = 0',
@@ -937,7 +937,7 @@ export const mathQuestions = [
             { label: 'c. z(x) = 6', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'a(x) = -4x³ + 3x² - 2x + 7; at x = 2',
@@ -947,7 +947,7 @@ export const mathQuestions = [
             { label: 'c. a(x) = 0', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'b(x) = 2x⁴ - x³ + 3x² - 2x + 5; at x = -1',
@@ -957,7 +957,7 @@ export const mathQuestions = [
             { label: 'c. b(x) = -53', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'c(x) = x³ - 2x² + 4x - 1; at x = 1',
@@ -967,7 +967,7 @@ export const mathQuestions = [
             { label: 'c. c(x) = 17', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'd(x) = -3x⁴ + 4x³ - 5x² + 6x - 2; at x = 0',
@@ -977,7 +977,7 @@ export const mathQuestions = [
             { label: 'c. d(x) = -23', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'e(x) = x² + 5x + 6; at x = -2',
@@ -987,7 +987,7 @@ export const mathQuestions = [
             { label: 'c. e(x) = -30', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'f(x) = 3x³ + 2x² - 5x + 4; at x = -1',
@@ -997,7 +997,7 @@ export const mathQuestions = [
             { label: 'c. f(x) = 8', isCorrect: true }
         ],
         value: 3,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'g(x) = 2x⁵ + x⁴ - 3x³ + 2x² + x - 1; at x = -3',
@@ -1007,7 +1007,7 @@ export const mathQuestions = [
             { label: 'c. g(x) = 653', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(30%)'
+        translateY: 'translateY(45%)'
     },
     {
         question: 'x² - 4',

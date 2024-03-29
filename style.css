@@ -271,8 +271,8 @@ body {
 
 .volume-range::-webkit-slider-thumb {
   appearance: none;
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   background: var(--white);
   border-radius: 50%;
   position: relative;

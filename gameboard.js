@@ -122,10 +122,10 @@ function play(player, psum, num) {
                     }
                     setTimeout(function() {
                         selectedDiv.css("display", "none").removeClass("animated");
-                    }, 4200);
+                    }, 3300);
                     setTimeout(function() {
                         positionContentInGrid('#p1', '#b' + (p1sum < 10 ? '0' + p1sum : p1sum));
-                    }, 5200);
+                    }, 4200);
                     if ((p1sum >= 11 && p1sum < 21) || (p1sum >= 31 && p1sum < 41) || (p1sum >= 51 && p1sum < 61) || (p1sum >= 71 && p1sum < 81) || (p1sum >= 91)) {
                         $(`#p1 img`).css('transform', 'scaleX(-1)');
                     } else {
@@ -157,10 +157,10 @@ function play(player, psum, num) {
                     }
                     setTimeout(function() {
                         selectedBlue.css("display", "none").removeClass("animated");
-                    }, 4200);
+                    }, 3300);
                     setTimeout(function() {
                         positionContentInGrid('#p1', '#b' + (p1sum < 10 ? '0' + p1sum : p1sum));
-                    }, 5200);
+                    }, 4200);
                     if ((p1sum >= 11 && p1sum < 21) || (p1sum >= 31 && p1sum < 41) || (p1sum >= 51 && p1sum < 61) || (p1sum >= 71 && p1sum < 81) || (p1sum >= 91)) {
                         $(`#p1 img`).css('transform', 'scaleX(-1)');
                     } else {
@@ -273,10 +273,10 @@ function play(player, psum, num) {
                     }
                     setTimeout(function() {
                         selectedDiv.css("display", "none").removeClass("animated");
-                    }, 4200);
+                    }, 3300);
                     setTimeout(function() {
-                        positionContentInGrid('#p1', '#b' + (p1sum < 10 ? '0' + p1sum : p1sum));
-                    }, 5200);
+                        positionContentInGrid('#p', '#b' + (p2sum < 10 ? '0' + p2sum : p2sum));
+                    }, 4200);
                     if ((p2sum >= 11 && p2sum < 21) || (p2sum >= 31 && p2sum < 41) || (p2sum >= 51 && p2sum < 61) || (p2sum >= 71 && p2sum < 81) || (p2sum >= 91)) {
                         $(`#p2 img`).css('transform', 'scaleX(-1)');
                     } else {
@@ -309,10 +309,10 @@ function play(player, psum, num) {
                     }
                     setTimeout(function() {
                         selectedBlue.css("display", "none").removeClass("animated");
-                    }, 4200);
+                    }, 3300);
                     setTimeout(function() {
-                        positionContentInGrid('#p1', '#b' + (p1sum < 10 ? '0' + p1sum : p1sum));
-                    }, 5200);
+                        positionContentInGrid('#p2', '#b' + (p2sum < 10 ? '0' + p2sum : p2sum));
+                    }, 4200);
                     if ((p2sum >= 11 && p2sum < 21) || (p2sum >= 31 && p2sum < 41) || (p2sum >= 51 && p2sum < 61) || (p2sum >= 71 && p2sum < 81) || (p2sum >= 91)) {
                         $(`#p2 img`).css('transform', 'scaleX(-1)');
                     } else {

@@ -102,23 +102,17 @@ function play(player, psum, num) {
                     var selectedDiv = $("#" + selectedDivId);
                     selectedDiv[0].offsetWidth;
                     selectedDiv.css("display", "block").addClass("animated");
-                    console.log(selectedDiv)
         
                     if(selectedDivId == 'charge1') {
                         p1sum -= 1;
-                        console.log("p1sum:", p1sum);
                     } else if(selectedDivId == 'charge2' || selectedDivId == 'charge3' || selectedDivId == 'charge4') {
                         p1sum -= 2;
-                        console.log("p1sum:", p1sum);
                     } else if(selectedDivId == 'charge5' || selectedDivId == 'charge6' || selectedDivId == 'charge7' || selectedDivId == 'charge8') {
                         p1sum -= 3;
-                        console.log("p1sum:", p1sum);
                     } else if(selectedDivId == 'charge9' || selectedDivId == 'charge10' || selectedDivId == 'charge11' || selectedDivId == 'charge12') {
                         p1sum -= 4;
-                        console.log("p1sum:", p1sum);
                     } else if(selectedDivId == 'charge13' || selectedDivId == 'charge14' || selectedDivId == 'charge15'){
                         p1sum -= 5;
-                        console.log("p1sum:", p1sum);
                     }
                     setTimeout(function() {
                         selectedDiv.css("display", "none").removeClass("animated");
@@ -142,7 +136,6 @@ function play(player, psum, num) {
                     var selectedBlue = $("#" + selectedBlueCard);
                     selectedBlue[0].offsetWidth;
                     selectedBlue.css("display", "block").addClass("animated");
-                    console.log(selectedBlue)
 
                     if(selectedBlueCard == 'chance1') {
                         p1sum += 1;
@@ -258,7 +251,6 @@ function play(player, psum, num) {
                     var selectedDiv = $("#" + selectedDivId);
                     selectedDiv[0].offsetWidth;
                     selectedDiv.css("display", "block").addClass("animated");
-                    console.log(selectedDiv)
 
                     if(selectedDivId == 'charge1') {
                         p2sum -= 1;
@@ -293,9 +285,6 @@ function play(player, psum, num) {
                     var selectedBlue = $("#" + selectedBlueCard);
                     selectedBlue[0].offsetWidth;
                     selectedBlue.css("display", "block").addClass("animated");
-                    console.log(selectedBlue)
-        
-
                     if(selectedBlueCard == 'chance1') {
                         p2sum += 1;
                     } else if(selectedBlueCard == 'chance2' || selectedBlueCard == 'chance3') {
@@ -414,8 +403,6 @@ function play(player, psum, num) {
           }
         }, 1000);
     }
-
-   
 }
 
 
@@ -466,7 +453,6 @@ $('#roll').click(function() {
             }
             tog += 1;
             $('.dice').css('animation', 'none');
-            console.log("Dice value:", num);
             animationInProgress = false; 
         }, 4050);
     };

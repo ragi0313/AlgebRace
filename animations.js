@@ -314,6 +314,8 @@ $('.tile').each(function() {
     }
 });
 
+$('.home-settings').click(function() { location.reload(); })
+
 
 
 

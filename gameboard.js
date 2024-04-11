@@ -251,7 +251,7 @@ function play(player, psum, num) {
                     var selectedDiv = $("#" + selectedDivId);
                     selectedDiv[0].offsetWidth;
                     selectedDiv.css("display", "block").addClass("animated");
-
+        
                     if(selectedDivId == 'charge1') {
                         p2sum -= 1;
                     } else if(selectedDivId == 'charge2' || selectedDivId == 'charge3' || selectedDivId == 'charge4') {
@@ -267,7 +267,7 @@ function play(player, psum, num) {
                         selectedDiv.css("display", "none").removeClass("animated");
                     }, 3300);
                     setTimeout(function() {
-                        positionContentInGrid('#p', '#b' + (p2sum < 10 ? '0' + p2sum : p2sum));
+                        positionContentInGrid('#p2', '#b' + (p2sum < 10 ? '0' + p2sum : p2sum));
                     }, 4200);
                     if ((p2sum >= 11 && p2sum < 21) || (p2sum >= 31 && p2sum < 41) || (p2sum >= 51 && p2sum < 61) || (p2sum >= 71 && p2sum < 81) || (p2sum >= 91)) {
                         $(`#p2 img`).css('transform', 'scaleX(-1)');

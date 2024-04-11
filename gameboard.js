@@ -314,11 +314,11 @@ function play(player, psum, num) {
                     var imageNumber = randomQuestion.value;
                     
                     var html = `
-                        <div class="questions">
+                        <div class="questions" style="transform: ${randomQuestion.translateY};">
                             <div>
                                 <h3 class="equation" style="font-size: ${randomQuestion.fontSize};">${randomQuestion.question}</h3>
                             </div>
-                            <div class="answer-choices">
+                            <div class="answer-choices ${randomQuestion.toggleWordProblem ? 'word-problem' : ''}">
                                 ${randomQuestion.choices.map(choice => `
                                     <p class="choice">${choice.label}</p>
                                 `).join('')}

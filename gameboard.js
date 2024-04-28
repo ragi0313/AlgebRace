@@ -85,7 +85,7 @@ function playCorrect() {
 function play(player, psum, num) {
     let sum;
     if (psum == 'p1sum') {
-        p1sum += num;
+        p1sum = 4;
         console.log("p1sum:", p1sum);
         for (let i = 1; i <= 100; i++) {
             let selector = '#b' + (i < 10 ? '0' + i : i); 
@@ -168,7 +168,9 @@ function play(player, psum, num) {
                     var html = `
                         <div class="questions" style="transform: ${randomQuestion.translateY};">
                             <div>
-                                <h3 class="equation" style="font-size: ${randomQuestion.fontSize};">${randomQuestion.question}</h3>
+                                <h3 class="equation" style="font-size: ${randomQuestion.fontSize}; margin-bottom: ${randomQuestion.margin};">
+                                  ${randomQuestion.question}
+                                </h3>
                             </div>
                             <div class="answer-choices ${randomQuestion.toggleWordProblem ? 'word-problem' : ''}">
                                 ${randomQuestion.choices.map(choice => `
@@ -313,10 +315,12 @@ function play(player, psum, num) {
                     var randomQuestion = mathQuestions[randomIndex];
                     var imageNumber = randomQuestion.value;
                     
-                    var html = `
+                     var html = `
                         <div class="questions" style="transform: ${randomQuestion.translateY};">
                             <div>
-                                <h3 class="equation" style="font-size: ${randomQuestion.fontSize};">${randomQuestion.question}</h3>
+                                <h3 class="equation" style="font-size: ${randomQuestion.fontSize}; margin-bottom: ${randomQuestion.margin};">
+                                  ${randomQuestion.question}
+                                </h3>
                             </div>
                             <div class="answer-choices ${randomQuestion.toggleWordProblem ? 'word-problem' : ''}">
                                 ${randomQuestion.choices.map(choice => `

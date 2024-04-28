@@ -1,1013 +1,1195 @@
 export const mathQuestions = [
     {
-        question: 'f(x) = 2x³ - 5x² + 3x + 7; at x = 2',
+        question: 'f(x) =<br>2x³ - 5x² + 3x + 7; <br>at x = 2',
         choices: [
             { label: 'a. f(x) = 9', isCorrect: true },
             { label: 'b. f(x) = 4', isCorrect: false },
             { label: 'c. f(x) = 15', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
-    },
+        margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
+     },
     {
-        question: 'g(x) = x⁴ - 4x³ + 6x² - 4x + 1; at x = 1',
+        question: 'g(x) = <br>x⁴ - 4x³ + 6x² - 4x + 1; <br>at x = 1',
         choices: [
             { label: 'a. g(x) = 7', isCorrect: false },
             { label: 'b. g(x) = 0', isCorrect: true },
             { label: 'c. g(x) = 13', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 'h(x) = 3x⁵ + 2x⁴ - 5x³ + x²- 8x + 4; at x = -1',
+        question: 'h(x) = <br>3x⁵ + 2x⁴ - 5x³ + x²- 8x + 4; <br>at x = -1',
         choices: [
             { label: 'a. h(x) = 17', isCorrect: true },
             { label: 'b. h(x) = 1', isCorrect: false },
             { label: 'c. h(x) = 5', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 'p(x) = 4x² - 9x + 2; at x = 3',
+        question: 'p(x) = <br>4x² - 9x + 2; <br>at x = 3',
         choices: [
             { label: 'a. p(x) = 11', isCorrect: true },
             { label: 'b. p(x) = 20', isCorrect: false },
             { label: 'c. p(x) = 23', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 'q(x) = x³ - 2x² + 5x - 4; at x = 2',
+        question: 'q(x) = <br>x³ - 2x² + 5x - 4; <br>at x = 2',
         choices: [
             { label: 'a. q(x) = 5', isCorrect: false },
             { label: 'b. q(x) = 9', isCorrect: false },
             { label: 'c. q(x) = 6', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 'r(x) = -2x⁴ + 3x³ - 7x² + 6x - 1; at x = 0',
+        question: 'r(x) = <br>-2x⁴ + 3x³ - 7x² + 6x - 1; <br>at x = 0',
         choices: [
             { label: 'a. r(x) = -3', isCorrect: false },
             { label: 'b. r(x) = -1', isCorrect: true },
             { label: 'c. r(x) = -5', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 's(x) = x⁴ + 2x³ - 3x² - 4x + 2; at x = 1',
+        question: 's(x) = <br>x⁴ + 2x³ - 3x² - 4x + 2; <br>at x = 1',
         choices: [
             { label: 'a. s(x) = -2', isCorrect: true },
             { label: 'b. s(x) = -9', isCorrect: false },
             { label: 'c. s(x) = -8', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 't(x) = 3x³ - 6x² + 9x - 12; at x = 2',
+        question: 't(x) = <br>3x³ - 6x² + 9x - 12; <br>at x = 2',
         choices: [
             { label: 'a. t(x) = 10', isCorrect: false },
             { label: 'b. t(x) = 6', isCorrect: true },
             { label: 'c. t(x) = 12', isCorrect: false }  
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 'u(x) = 2x⁴ + 4x³ - 6x² - 8x + 10; at x = -1',
+        question: 'u(x) = <br>2x⁴ + 4x³ - 6x² - 8x + 10; <br>at x = -1',
         choices: [
             { label: 'a. u(x) = 10', isCorrect: true },
             { label: 'b. u(x) = 20', isCorrect: false },
             { label: 'c. u(x) = 30', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 'v(x) = x⁵ - x⁴ + x³ - x² + x - 1; at x = 0',
+        question: 'v(x) = <br>x⁵ - x⁴ + x³ - x² + x - 1; <br>at x = 0',
         choices: [
             { label: 'a. v(x) = -3', isCorrect: false },
             { label: 'b. v(x) = -2', isCorrect: false },
             { label: 'c. v(x) = -1', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 'w(x) = -4x³ + 5x² - 3x + 7; at x = 1',
+        question: 'w(x) = <br>-4x³ + 5x² - 3x + 7; <br>at x = 1',
         choices: [
             { label: 'a. w(x) = 10', isCorrect: false },
             { label: 'b. w(x) = 5', isCorrect: true },
             { label: 'c. w(x) = 15', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+        margin: '40px'
     },
     {
-        question: 'y(x) = 2x⁴ - 3x³ + 4x² - 5x + 6; at x = 2',
+        question: 'y(x) = <br>2x⁴ - 3x³ + 4x² - 5x + 6; <br>at x = 2',
         choices: [
             { label: 'a. y(x) = 77', isCorrect: false },
             { label: 'b. y(x) = 88', isCorrect: true },
             { label: 'c. y(x) = 99', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'z(x) = x³+ 3x² - 4x - 2; at x = 3',
+        question: 'z(x) = <br>x³+ 3x² - 4x - 2; <br>at x = 3',
         choices: [
             { label: 'a. z(x) = 60', isCorrect: false },
             { label: 'b. z(x) = 40', isCorrect: true },
             { label: 'c. z(x) = 80', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'a(x) = -3x² + 6x - 9; at x = -1',
+        question: 'a(x) = <br>-3x² + 6x - 9; <br>at x = -1',
         choices: [
             { label: 'a. a(x) = -23', isCorrect: false },
             { label: 'b. a(x) = -18', isCorrect: true },
             { label: 'c. a(x) = -12', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'b(x) = 4x³ - 8x² + 12x - 16; at x = 2',
+        question: 'b(x) = <br>4x³ - 8x² + 12x - 16; <br>at x = 2',
         choices: [
             { label: 'a. b(x) = 8', isCorrect: true },
             { label: 'b. b(x) = 3', isCorrect: false },
             { label: 'c. b(x) = 9', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'c(x) = x⁴ + 4x³ + 6x² + 4x + 1; at x = -1',
+        question: 'c(x) = <br>x⁴ + 4x³ + 6x² + 4x + 1; <br>at x = -1',
         choices: [
             { label: 'a. c(x) = 5', isCorrect: false },
             { label: 'b. c(x) = 0', isCorrect: true },
             { label: 'c. c(x) = 1', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'd(x) = -2x³ + 5x²- 4x + 3; at x = 1',
+        question: 'd(x) = <br>-2x³ + 5x²- 4x + 3; <br>at x = 1',
         choices: [
             { label: 'a. d(x) = 6', isCorrect: false },
             { label: 'b. d(x) = 4', isCorrect: false },
             { label: 'c. d(x) = 2', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'e(x) = 3x⁴ - 5x³ + 7x² - 9x + 11; at x = 0',
+        question: 'e(x) = <br>3x⁴ - 5x³ + 7x² - 9x + 11; <br>at x = 0',
         choices: [
             { label: 'a. e(x) = 33', isCorrect: false },
             { label: 'b. e(x) = 22', isCorrect: false },
             { label: 'c. e(x) = 11', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = x⁵ + 2x⁴ + 3x³ + 4x² + 5x + 6; at x = -2',
+        question: 'f(x) = <br>x⁵ + 2x⁴ + 3x³ + 4x² + 5x + 6; <br>at x = -2',
         choices: [
             { label: 'a. f(x) = -22', isCorrect: false },
             { label: 'b. f(x) = -12', isCorrect: true },
             { label: 'c. f(x) = -32', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = -x⁴ + 3x³ - 5x² + 7x - 9; at x = 1',
+        question: 'g(x) = <br>-x⁴ + 3x³ - 5x² + 7x - 9; <br>at x = 1',
         choices: [
             { label: 'a. g(x) = -7', isCorrect: false },
             { label: 'b. g(x) = -5', isCorrect: true },
             { label: 'c. g(x) = -3', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = 2x² - 3x + 5; at x = 1',
+        question: 'f(x) = <br>2x² - 3x + 5; <br>at x = 1',
         choices: [
             { label: 'a. f(x) = 4', isCorrect: true },
             { label: 'b. f(x) = 8', isCorrect: false },
             { label: 'c. f(x) = 12', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = x³ + 2x² - x - 3; at x = -1',
+        question: 'g(x) = <br>x³ + 2x² - x - 3; <br>at x = -1',
         choices: [
             { label: 'a. g(x) = 3', isCorrect: false },
             { label: 'b. g(x) = -1', isCorrect: true },
             { label: 'c. g(x) = -5', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'h(x) = 4x⁴ - x³ + 3x² + 2x + 1; at x = 0',
+        question: 'h(x) = <br>4x⁴ - x³ + 3x² + 2x + 1; <br>at x = 0',
         choices: [
             { label: 'a. h(x) = 4', isCorrect: false },
             { label: 'b. h(x) = 7', isCorrect: false },
             { label: 'c. h(x) = 1', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'p(x) = 3x² - 2x + 7; at x = 2',
+        question: 'p(x) = <br>3x² - 2x + 7; <br>at x = 2',
         choices: [
             { label: 'a. p(x) = 15', isCorrect: true },
             { label: 'b. p(x) = 6', isCorrect: false },
             { label: 'c. p(x) = 11', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'q(x) = x⁴ + 5x³ + 4x² + 2x + 6; at x = 3',
+        question: 'q(x) = <br>x⁴ + 5x³ + 4x² + 2x + 6; <br>at x = 3',
         choices: [
             { label: 'a. q(x) = -2', isCorrect: false },
             { label: 'b. q(x) = -6', isCorrect: true },
             { label: 'c. q(x) = 9', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'r(x) = 2x³ + 4x² - x + 8; at x = 1',
+        question: 'r(x) = <br>2x³ + 4x² - x + 8; <br>at x = 1',
         choices: [
             { label: 'a. r(x) = -7', isCorrect: false },
             { label: 'b. r(x) = 9', isCorrect: true },
             { label: 'c. r(x) = 12', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 's(x) = x³ + 3x² - 2x + 5; at x = 2',
+        question: 's(x) = <br>x³ + 3x² - 2x + 5; <br>at x = 2',
         choices: [
             { label: 'a. s(x) = 13', isCorrect: false },
             { label: 'b. s(x) = 9', isCorrect: false },
             { label: 'c. s(x) = 21', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 't(x) = 2x⁴ - x³ + 3x² + 2x - 1; at x = 1',
+        question: 't(x) = <br>2x⁴ - x³ + 3x² + 2x - 1; <br>at x = 1',
         choices: [
             { label: 'a. t(x) = 5', isCorrect: true },
             { label: 'b. t(x) = 3', isCorrect: false },
             { label: 'c. t(x) = 8', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'u(x) = -3x² + 2x - 1; at x = -1',
+        question: 'u(x) = <br>-3x² + 2x - 1; <br>at x = -1',
         choices: [
             { label: 'a. u(x) = 10', isCorrect: false },
             { label: 'b. u(x) = -6', isCorrect: true },
             { label: 'c. u(x) = 4', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'v(x) = x⁵ + x⁴ - 2x³ - 4x² + 3x - 1; at x = 2',
+        question: 'v(x) = <br>x⁵ + x⁴ - 2x³ - 4x² + 3x - 1; <br>at x = 2',
         choices: [
             { label: 'a. v(x) = 16', isCorrect: false },
             { label: 'b. v(x) = 11', isCorrect: false },
             { label: 'c. v(x) = 21', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'w(x) = 4x³ - 2x² + 5x - 3; at x = 0',
+        question: 'w(x) = <br>4x³ - 2x² + 5x - 3; <br>at x = 0',
         choices: [
             { label: 'a. w(x) = -3', isCorrect: true },
             { label: 'b. w(x) = 5', isCorrect: false },
             { label: 'c. w(x) = 8', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'y(x) = -x⁴ + 2x³ - 3x² + 4x - 5; at x = -2',
+        question: 'y(x) = <br>-x⁴ + 2x³ - 3x² + 4x - 5; <br>at x = -2',
         choices: [
             { label: 'a. y(x) = 12', isCorrect: false },
             { label: 'b. y(x) = -57', isCorrect: true },
             { label: 'c. y(x) = 5', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'z(x) = 2x³  + 4x² + 4x - 5; at x = -2',
+        question: 'z(x) = <br>2x³  + 4x² + 4x - 5; <br>at x = -2',
         choices: [
             { label: 'a. z(x) = -4', isCorrect: false },
             { label: 'b. z(x) = 6', isCorrect: false },
             { label: 'c. z(x) = 4', isCorrect: true }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'a(x) = 3x⁴ - 5x³ + 2x² - x + 7; at x = -1',
+        question: 'a(x) = <br>3x⁴ - 5x³ + 2x² - x + 7; <br>at x = -1',
         choices: [
             { label: 'a. a(x) = 18', isCorrect: true },
             { label: 'b. a(x) = 7', isCorrect: false },
             { label: 'c. a(x) = 10', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'b(x) = -2x² + 3x - 1; at x = 2',
+        question: 'b(x) = <br>-2x² + 3x - 1; <br>at x = 2',
         choices: [
             { label: 'a. b(x) = 4', isCorrect: false },
             { label: 'b. b(x) = -3', isCorrect: true },
             { label: 'c. b(x) = 1', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'c(x) = x⁴ - x³ + x² - x + 1; at x = -1',
+        question: 'c(x) = <br>x⁴ - x³ + x² - x + 1; <br>at x = -1',
         choices: [
             { label: 'a. c(x) = 3', isCorrect: false },
             { label: 'b. c(x) = 7', isCorrect: false },
             { label: 'c. c(x) = 5', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'd(x) = -3x³ + 2x² + 5x - 4; at x = 1',
+        question: 'd(x) = <br>-3x³ + 2x² + 5x - 4; <br>at x = 1',
         choices: [
             { label: 'a. d(x) = 0', isCorrect: true },
             { label: 'b. d(x) = -1', isCorrect: false },
             { label: 'c. d(x) = 4', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'e(x) = 4x⁴ - 3x³ + 2x² - x + 5; at x = 0',
+        question: 'e(x) = <br>4x⁴ - 3x³ + 2x² - x + 5; <br>at x = 0',
         choices: [
             { label: 'a. e(x) = -3', isCorrect: false },
             { label: 'b. e(x) = 5', isCorrect: true },
             { label: 'c. e(x) = 8', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = x⁵ + 2x⁴ + 3x³ + 4x² + 5x + 6; at x = -2',
+        question: 'f(x) = <br>x⁵ + 2x⁴ + 3x³ + 4x² + 5x + 6; <br>at x = -2',
         choices: [
             { label: 'a. f(x) = 7', isCorrect: false },
             { label: 'b. f(x) = 4', isCorrect: false },
             { label: 'c. f(x) = -12', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = x³ + 2x² - 4x + 3; at x = 1',
+        question: 'g(x) = <br>x³ + 2x² - 4x + 3; <br>at x = 1',
         choices: [
             { label: 'a. g(x) = 0', isCorrect: true },
             { label: 'b. g(x) = 3', isCorrect: false },
             { label: 'c. g(x) = 4', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = x³ + 2x² - 4x + 3; at x = 1',
+        question: 'g(x) = <br>x³ + 2x² - 4x + 3; <br>at x = 1',
         choices: [
             { label: 'a. g(x) = 0', isCorrect: true },
             { label: 'b. g(x) = 3', isCorrect: false },
             { label: 'c. g(x) = 4', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = 3x² + 2x + 1; at x = 2',
+        question: 'f(x) = <br>3x² + 2x + 1; <br>at x = 2',
         choices: [
             { label: 'a. f(x) = 11', isCorrect: false },
             { label: 'b. f(x) = 15', isCorrect: true },
             { label: 'c. f(x) = 9', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = x³ - 2x² + x + 1; at x = -1',
+        question: 'g(x) = <br>x³ - 2x² + x + 1; <br>at x = -1',
         choices: [
             { label: 'a. g(x) = -6', isCorrect: false },
             { label: 'b. g(x) = 8', isCorrect: false },
             { label: 'c. g(x) = -3', isCorrect: true }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'h(x) = 4x⁴ - 3x³ + 2x² - x + 3; at x = 0',
+        question: 'h(x) = <br>4x⁴ - 3x³ + 2x² - x + 3; <br>at x = 0',
         choices: [
             { label: 'a. h(x) = 3', isCorrect: true },
             { label: 'b. h(x) = 4', isCorrect: false },
             { label: 'c. h(x) = -1', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'p(x) = 2x³ - 5x² + 4x + 1; at x = 1',
+        question: 'p(x) = <br>2x³ - 5x² + 4x + 1; <br>at x = 1',
         choices: [
             { label: 'a. p(x) = 5', isCorrect: false },
             { label: 'b. p(x) = 2', isCorrect: true },
             { label: 'c. p(x) = 7', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'q(x) = x⁵ + 2x⁴ - 3x³ + 4x² - 5x + 6; at x = 2',
+        question: 'q(x) = <br>x⁵ + 2x⁴ - 3x³ + 4x² - 5x + 6; <br>at x = 2',
         choices: [
             { label: 'a. q(x) = 12', isCorrect: false },
             { label: 'b. q(x) = 27', isCorrect: false },
             { label: 'c. q(x) = 58', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'r(x) = -x⁴ + 3x³ - 2x² + 5x -4; at x = -2',
+        question: 'r(x) = <br>-x⁴ + 3x³ - 2x² + 5x -4; <br>at x = -2',
         choices: [
             { label: 'a. r(x) = -62', isCorrect: true },
             { label: 'b. r(x) = 8', isCorrect: false },
             { label: 'c. r(x) = -21', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 's(x) = 2x³ + x² - 3x + 2; at x = 1',
+        question: 's(x) = <br>2x³ + x² - 3x + 2; <br>at x = 1',
         choices: [
             { label: 'a. s(x) = 9', isCorrect: false },
             { label: 'b. s(x) = 2', isCorrect: true },
             { label: 'c. s(x) = 5', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 't(x) = x⁴ - x³ + x² - x + 1; at x = 0',
+        question: 't(x) = <br>x⁴ - x³ + x² - x + 1; <br>at x = 0',
         choices: [
             { label: 'a. t(x) = 4', isCorrect: false },
             { label: 'b. t(x) = 1', isCorrect: true },
             { label: 'c. t(x) = 3', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'u(x) = -3x³ + 4x² - 2x + 3; at x = 1',
+        question: 'u(x) = <br>-3x³ + 4x² - 2x + 3; <br>at x = 1',
         choices: [
             { label: 'a. u(x) = 9', isCorrect: false },
             { label: 'b. u(x) = 7', isCorrect: false },
             { label: 'c. u(x) = 2', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'v(x) = x² - 4x + 3; at x = 3',
+        question: 'v(x) = <br>x² - 4x + 3; <br>at x = 3',
         choices: [
             { label: 'a. v(x) = 0', isCorrect: true },
             { label: 'b. v(x) = 4', isCorrect: false },
             { label: 'c. v(x) = 6', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'w(x) = 3x⁴ - 2x³ + x² - 4x + 5; at x = -1',
+        question: 'w(x) = <br>3x⁴ - 2x³ + x² - 4x + 5; <br>at x = -1',
         choices: [
             { label: 'a. w(x) = 7', isCorrect: false },
             { label: 'b. w(x) = 15', isCorrect: true },
             { label: 'c. w(x) = 21', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'y(x) = x⁵ - 5x⁴ + 4x³ - 3x² + 2x - 1; at x = 3',
+        question: 'y(x) = <br>x⁵ - 5x⁴ + 4x³ - 3x² + 2x - 1; <br>at x = 3',
         choices: [
             { label: 'a. y(x) = -69', isCorrect: false },
             { label: 'b. y(x) = 48', isCorrect: false },
             { label: 'c. y(x) = -76', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'z(x) = -2x³ + 3x² - x + 4; at x = 2',
+        question: 'z(x) = <br>-2x³ + 3x² - x + 4; <br>at x = 2',
         choices: [
             { label: 'a. z(x) = -2', isCorrect: true },
             { label: 'b. z(x) = 5', isCorrect: false },
             { label: 'c. z(x) = 9', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'a(x) = 4x³ - 3x² + 2x - 1; at x = -1',
+        question: 'a(x) = <br>4x³ - 3x² + 2x - 1; <br>at x = -1',
         choices: [
             { label: 'a. a(x) = 7', isCorrect: false },
             { label: 'b. a(x) = -10', isCorrect: true },
             { label: 'c. a(x) = 3', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'b(x) = x⁴ + 2x³ - 4x² + 3x - 1; at x = 1',
+        question: 'b(x) = <br>x⁴ + 2x³ - 4x² + 3x - 1; <br>at x = 1',
         choices: [
             { label: 'a. b(x) = 5', isCorrect: false },
             { label: 'b. b(x) = -7', isCorrect: false },
             { label: 'c. b(x) = 1', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'c(x) = 3x³ + 2x² - x + 3; at x = -2',
+        question: 'c(x) = <br>3x³ + 2x² - x + 3; <br>at x = -2',
         choices: [
             { label: 'a. c(x) = -11', isCorrect: true },
             { label: 'b. c(x) = -19', isCorrect: false },
             { label: 'c. c(x) = -14', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'd(x) = x² - 2x + 1; at x = -2',
+        question: 'd(x) = <br>x² - 2x + 1; <br>at x = -2',
         choices: [
             { label: 'a. d(x) = 4', isCorrect: false },
             { label: 'b. d(x) = 0', isCorrect: true },
             { label: 'c. d(x) = 8', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'e(x) = -x⁴ + x³ - x² + x - 1; at x = 0',
+        question: 'e(x) = <br>-x⁴ + x³ - x² + x - 1; <br>at x = 0',
         choices: [
             { label: 'a. e(x) = 9', isCorrect: false },
             { label: 'b. e(x) = 4', isCorrect: false },
             { label: 'c. e(x) = -1', isCorrect: true }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = 2x⁵ + x⁴ - 3x³ + 4x² - 5x + 6; at x = -1',
+        question: 'f(x) = <br>2x⁵ + x⁴ - 3x³ + 4x² - 5x + 6; <br>at x = -1',
         choices: [
             { label: 'a. f(x) = 17', isCorrect: true },
             { label: 'b. f(x) = -17', isCorrect: false },
             { label: 'c. f(x) = -14', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = -3x³ + 4x² - x + 3; at x = 0',
+        question: 'g(x) = <br>-3x³ + 4x² - x + 3; <br>at x = 0',
         choices: [
             { label: 'a. g(x) = 10', isCorrect: false },
             { label: 'b. g(x) = 3', isCorrect: true },
             { label: 'c. g(x) = 5', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = x² + 3x + 2; at x = 1',
+        question: 'f(x) = <br>x² + 3x + 2; <br>at x = 1',
         choices: [
             { label: 'a. f(x) = 12', isCorrect: false },
             { label: 'b. f(x) = 3', isCorrect: false },
             { label: 'c. f(x) = 6', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = 2x³ - 5x² + 4x - 3; at x = -1',
+        question: 'g(x) = <br>2x³ - 5x² + 4x - 3; <br>at x = -1',
         choices: [
             { label: 'a. g(x) = 14', isCorrect: true },
             { label: 'b. g(x) = -6', isCorrect: false },
             { label: 'c. g(x) = 8', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'h(x) = 3x⁴ - 2x³ + x² - 4x + 1; at x = 2',
+        question: 'h(x) = <br>3x⁴ - 2x³ + x² - 4x + 1; <br>at x = 2',
         choices: [
             { label: 'a. h(x) = 20', isCorrect: false },
             { label: 'b. h(x) = 29', isCorrect: true },
             { label: 'c. h(x) = -20', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'p(x) = x³ + 2x² - 5x + 1; at x = 0',
+        question: 'p(x) = <br>x³ + 2x² - 5x + 1; <br>at x = 0',
         choices: [
             { label: 'a. p(x) = 18', isCorrect: false },
             { label: 'b. p(x) = 0', isCorrect: false },
             { label: 'c. p(x) = 1', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'q(x) = 4x² - 7x + 3; at x = 3',
+        question: 'q(x) = <br>4x² - 7x + 3; <br>at x = 3',
         choices: [
             { label: 'a. q(x) = 18', isCorrect: true },
             { label: 'b. q(x) = 5', isCorrect: false },
             { label: 'c. q(x) = 22', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'r(x) = 5x³ - 6x² + 4x - 2; at x = -2',
+        question: 'r(x) = <br>5x³ - 6x² + 4x - 2; <br>at x = -2',
         choices: [
             { label: 'a. r(x) = 80', isCorrect: false },
             { label: 'b. r(x) = -74', isCorrect: true },
             { label: 'c. r(x) = -69', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 's(x) = x⁴ - x³ + 2x² + 3x + 4; at x = 1',
+        question: 's(x) = <br>x⁴ - x³ + 2x² + 3x + 4; <br>at x = 1',
         choices: [
             { label: 'a. s(x) = 0', isCorrect: false },
             { label: 'b. s(x) = 8', isCorrect: false },
             { label: 'c. s(x) = 1', isCorrect: true }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 't(x) = 3x² + 5x - 2; at x = 1',
+        question: 't(x) = <br>3x² + 5x - 2; <br>at x = 1',
         choices: [
             { label: 'a. t(x) = -4', isCorrect: true },
             { label: 'b. t(x) = 11', isCorrect: false },
             { label: 'c. t(x) = -8', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'u(x) = x³ + 4x² - 3x + 2; at x = 2',
+        question: 'u(x) = <br>x³ + 4x² - 3x + 2; <br>at x = 2',
         choices: [
             { label: 'a. u(x) = 27', isCorrect: false },
             { label: 'b. u(x) = 20', isCorrect: true },
             { label: 'c. u(x) = 18', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'v(x) = 2x³ - 3x² + 5x - 1; at x = 1',
+        question: 'v(x) = <br>2x³ - 3x² + 5x - 1; <br>at x = 1',
         choices: [
             { label: 'a. v(x) = 7', isCorrect: false },
             { label: 'b. v(x) = 15', isCorrect: false },
             { label: 'c. v(x) = 3', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'w(x) = x⁴ - 2x³ + 3x² - 4x + 5; at x = 0',
+        question: 'w(x) = <br>x⁴ - 2x³ + 3x² - 4x + 5; <br>at x = 0',
         choices: [
             { label: 'a. w(x) = 5', isCorrect: true },
             { label: 'b. w(x) = 16', isCorrect: false },
             { label: 'c. w(x) = 25', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'y(x) = 3x³ + 2x² - 5x + 4; at x = 1',
+        question: 'y(x) = <br>3x³ + 2x² - 5x + 4; <br>at x = 1',
         choices: [
             { label: 'a. y(x) = 14', isCorrect: false },
             { label: 'b. y(x) = 4', isCorrect: true },
             { label: 'c. y(x) = -4', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'z(x) = 4x⁴ - 6x³ + 2x² - 3x + 1; at x = -1',
+        question: 'z(x) = <br>4x⁴ - 6x³ + 2x² - 3x + 1; <br>at x = -1',
         choices: [
             { label: 'a. z(x) = 18', isCorrect: false },
             { label: 'b. z(x) = 17', isCorrect: false },
             { label: 'c. z(x) = 16', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'a(x) = x² - 3x + 5; at x = -2',
+        question: 'a(x) = <br>x² - 3x + 5; <br>at x = -2',
         choices: [
             { label: 'a. a(x) = 15', isCorrect: true },
             { label: 'b. a(x) = 26', isCorrect: false },
             { label: 'c. a(x) = -24', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'b(x) = 2x³ + 4x² - x + 3; at x = 0',
+        question: 'b(x) = <br>2x³ + 4x² - x + 3; <br>at x = 0',
         choices: [
             { label: 'a. b(x) = 0', isCorrect: false },
             { label: 'b. b(x) = 3', isCorrect: true },
             { label: 'c. b(x) = -1', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'c(x) = 3x⁴ - 4x³ + 2x² + 3x - 1; at x = 1',
+        question: 'c(x) = <br>3x⁴ - 4x³ + 2x² + 3x - 1; <br>at x = 1',
         choices: [
             { label: 'a. c(x) = 14', isCorrect: false },
             { label: 'b. c(x) = 9', isCorrect: false },
             { label: 'c. c(x) = 3', isCorrect: true }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'd(x) = x³ - 2x² + 5x - 3; at x = 2',
+        question: 'd(x) = <br>x³ - 2x² + 5x - 3; <br>at x = 2',
         choices: [
             { label: 'a. d(x) = 7', isCorrect: true },
             { label: 'b. d(x) = -7', isCorrect: false },
             { label: 'c. d(x) = 24', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'e(x) = 2x² + 3x - 1; at x = -1',
+        question: 'e(x) = <br>2x² + 3x - 1; <br>at x = -1',
         choices: [
             { label: 'a. e(x) = 0', isCorrect: false },
             { label: 'b. e(x) = -2', isCorrect: true },
             { label: 'c. e(x) = -4', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = 4x³ - 5x² + 3x - 2; at x = 1',
+        question: 'f(x) = <br>4x³ - 5x² + 3x - 2; <br>at x = 1',
         choices: [
             { label: 'a. f(x) = 20', isCorrect: false },
             { label: 'b. f(x) = 31', isCorrect: false },
             { label: 'c. f(x) = 0', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = x⁴ + x³ - 2x² + 3x + 1; at x = 0',
+        question: 'g(x) = <br>x⁴ + x³ - 2x² + 3x + 1; <br>at x = 0',
         choices: [
             { label: 'a. g(x) = 7', isCorrect: false },
             { label: 'b. g(x) = 0', isCorrect: false },
             { label: 'c. g(x) = 1', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = 3x² + 5x - 2; at x = 2',
+        question: 'f(x) = <br>3x² + 5x - 2; <br>at x = 2',
         choices: [
             { label: 'a. f(x) = 20', isCorrect: true },
             { label: 'b. f(x) = 2', isCorrect: false },
             { label: 'c. f(x) = 33', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+        margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = x³ - 4x² + 3x + 6; at x = -1',
+        question: 'g(x) =<br> x³ - 4x² + 3x + 6; <br>at x = -1',
         choices: [
             { label: 'a. g(x) = -1', isCorrect: false },
             { label: 'b. g(x) = 2', isCorrect: false },
             { label: 'c. g(x) = -2', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+        margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'h(x) = 2x⁴ - 7x³ + 5x² + 3x - 1; at x = 3',
+        question: 'h(x) = <br>2x⁴ - 7x³ + 5x² + 3x - 1; <br>at x = 3',
         choices: [
             { label: 'a. h(x) = 19', isCorrect: false },
             { label: 'b. h(x) = 26', isCorrect: true },
             { label: 'c. h(x) = 34', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+        margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'p(x) = 4x³ - 2x² + x + 9; at x = 1',
+        question: 'p(x) = <br>4x³ - 2x² + x + 9; <br>at x = 1',
         choices: [
             { label: 'a. p(x) = 12', isCorrect: true },
             { label: 'b. p(x) = 18', isCorrect: false },
             { label: 'c. p(x) = 11', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'q(x) = x⁵ - 3x⁴ + 4x³ + 2x² - x + 8; at x = 0',
+        question: 'q(x) = <br>x⁵ - 3x⁴ + 4x³ + 2x² - x + 8; <br>at x = 0',
         choices: [
             { label: 'a. q(x) = 12', isCorrect: false },
             { label: 'b. q(x) = 8', isCorrect: true },
             { label: 'c. q(x) = 0', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'r(x) = -2x⁴ + 6x³ - 8x² + 5x - 3; at x = -1',
+        question: 'r(x) = <br>-2x⁴ + 6x³ - 8x² + 5x - 3; <br>at x = -1',
         choices: [
             { label: 'a. r(x) = -1', isCorrect: false },
             { label: 'b. r(x) = 24', isCorrect: false },
             { label: 'c. r(x) = -24', isCorrect: true }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 's(x) = 3x² - 2x + 7; at x = 2',
+        question: 's(x) = <br>3x² - 2x + 7; <br>at x = 2',
         choices: [
             { label: 'a. s(x) = 15', isCorrect: true },
             { label: 'b. s(x) = 3', isCorrect: false },
             { label: 'c. s(x) = 5', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 't(x) = x⁴ - 5x³ + 6x² + 4x + 3; at x = -1',
+        question: 't(x) = <br>x⁴ - 5x³ + 6x² + 4x + 3; <br>at x = -1',
         choices: [
             { label: 'a. t(x) = -14', isCorrect: false },
             { label: 'b. t(x) = 5', isCorrect: true },
             { label: 'c. t(x) = 25', isCorrect: false }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'u(x) = -x³ + 3x² - 4x + 7; at x = 1',
+        question: 'u(x) = <br>-x³ + 3x² - 4x + 7; <br>at x = 1',
         choices: [
             { label: 'a. u(x) = 21', isCorrect: false },
             { label: 'b. u(x) = 10', isCorrect: false },
             { label: 'c. u(x) = 5', isCorrect: true }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'v(x) = 2x³ + 7x² - 3x + 4; at x = -2',
+        question: 'v(x) = <br>2x³ + 7x² - 3x + 4; <br>at x = -2',
         choices: [
             { label: 'a. v(x) = 22', isCorrect: true },
             { label: 'b. v(x) = 43', isCorrect: false },
             { label: 'c. v(x) = 36', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'w(x) = x² - 4x + 3; at x = 3',
+        question: 'w(x) = <br>x² - 4x + 3; <br>at x = 3',
         choices: [
             { label: 'a. w(x) = -3', isCorrect: false },
             { label: 'b. w(x) = 0', isCorrect: true },
             { label: 'c. w(x) = -1', isCorrect: false }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'y(x) = -3x⁴ + 2x³ + 5x² - 4x + 1; at x = 1',
+        question: 'y(x) = <br>-3x⁴ + 2x³ + 5x² - 4x + 1; <br>at x = 1',
         choices: [
             { label: 'a. y(x) = 11', isCorrect: false },
             { label: 'b. y(x) = 31', isCorrect: false },
             { label: 'c. y(x) = 1', isCorrect: true }
         ],
         value: 1,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'z(x) = x⁵ + 2x⁴ - x³ + 4x² - 3x + 6; at x = 0',
+        question: 'z(x) = <br>x⁵ + 2x⁴ - x³ + 4x² - 3x + 6; <br>at x = 0',
         choices: [
             { label: 'a. z(x) = 43', isCorrect: false },
             { label: 'b. z(x) = 27', isCorrect: false },
             { label: 'c. z(x) = 6', isCorrect: true }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'a(x) = -4x³ + 3x² - 2x + 7; at x = 2',
+        question: 'a(x) = <br>-4x³ + 3x² - 2x + 7; <br>at x = 2',
         choices: [
             { label: 'a. a(x) = 17', isCorrect: false },
             { label: 'b. a(x) = -17', isCorrect: true },
             { label: 'c. a(x) = 0', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'b(x) = 2x⁴ - x³ + 3x² - 2x + 5; at x = -1',
+        question: 'b(x) = <br>2x⁴ - x³ + 3x² - 2x + 5; <br>at x = -1',
         choices: [
             { label: 'a. b(x) = 13', isCorrect: true },
             { label: 'b. b(x) = 53', isCorrect: false },
             { label: 'c. b(x) = -53', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'c(x) = x³ - 2x² + 4x - 1; at x = 1',
+        question: 'c(x) = <br>x³ - 2x² + 4x - 1; <br>at x = 1',
         choices: [
             { label: 'a. c(x) = 2', isCorrect: true },
             { label: 'b. c(x) = 42', isCorrect: false },
             { label: 'c. c(x) = 17', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'd(x) = -3x⁴ + 4x³ - 5x² + 6x - 2; at x = 0',
+        question: 'd(x) = <br>-3x⁴ + 4x³ - 5x² + 6x - 2; <br>at x = 0',
         choices: [
             { label: 'a. d(x) = 0', isCorrect: false },
             { label: 'b. d(x) = -2', isCorrect: true },
             { label: 'c. d(x) = -23', isCorrect: false }
         ],
         value: 2,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'e(x) = x² + 5x + 6; at x = -2',
+        question: 'e(x) =<br> x² + 5x + 6; <br>at x = -2',
         choices: [
             { label: 'a. e(x) = 30', isCorrect: false },
             { label: 'b. e(x) = 0', isCorrect: true },
             { label: 'c. e(x) = -30', isCorrect: false }
         ],
         value: 4,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'f(x) = 3x³ + 2x² - 5x + 4; at x = -1',
+        question: 'f(x) = <br>3x³ + 2x² - 5x + 4; <br>at x = -1',
         choices: [
             { label: 'a. f(x) = 16', isCorrect: false },
             { label: 'b. f(x) = 24', isCorrect: false },
             { label: 'c. f(x) = 8', isCorrect: true }
         ],
         value: 3,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
-        question: 'g(x) = 2x⁵ + x⁴ - 3x³ + 2x² + x - 1; at x = -3',
+        question: 'g(x) = <br>2x⁵ + x⁴ - 3x³ + 2x² + x - 1; <br>at x = -3',
         choices: [
             { label: 'a. g(x) = -310', isCorrect: true },
             { label: 'b. g(x) = 310', isCorrect: false },
             { label: 'c. g(x) = 653', isCorrect: false }
         ],
         value: 5,
-        translateY: 'translateY(45%)'
+         margin: '20px',
+        fontSize: '30px',
+        translateY: 'translateY(15%)'
     },
     {
         question: 'x² - 4',
@@ -2876,8 +3058,8 @@ export const mathQuestions = [
     {
         question: 'Solve: 9x + 9 + 7 = 14x - 5 + 9',
         choices: [
-         { label: '(a) x = 7', isCorrect: false },
-         { label: '(b) x = 4', isCorrect: true },
+         { label: '(a) x = -7', isCorrect: true },
+         { label: '(b) x = 4', isCorrect: false },
          { label: '(c) x = 6', isCorrect: false }
      ],
          value: 4,
